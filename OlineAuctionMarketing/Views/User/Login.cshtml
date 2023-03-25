@@ -1,0 +1,22 @@
+﻿@model OlineAuctionMarketing.Models.DTO.Users.UserLoginRequestModel
+
+<p class="hidden"></p>
+<div class="border login-div">
+    <form asp-action="UserLogin">
+        @if (TempData["Failed"] != null)
+        {
+            <p>@TempData["Failed"]</p>
+        }
+        <div class="inp-div">
+            <label asp-for="Email" class="label email-label">Email</label>
+            <input type="text" name="Email" class="input" />
+        </div>
+        <div class="inp-div">
+            <label asp-for="Password" class="label">Password</label>
+            <input type="password" name="Password" class="input" />
+        </div>
+        <div>
+            <input type="submit" class="btn btn-success" value="Login" />
+        </div>
+    </form>
+</div>
