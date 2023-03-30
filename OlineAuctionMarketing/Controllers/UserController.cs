@@ -29,10 +29,10 @@ namespace OlineAuctionMarketing.Controllers
 				TempData["Failed"] = userLogin.Massage;
 				return View("Login");
 			}
-			/*var claims = new List<Claim>
+			var claims = new List<Claim>
 				{
-					new Claim(ClaimTypes.Role,userLogin.Date.Role.ToString()),
-					new Claim(ClaimTypes.NameIdentifier,userLogin.Date.Id.ToString()),
+					new Claim(ClaimTypes.Role,userLogin.Data.Role.ToString()),
+					new Claim(ClaimTypes.NameIdentifier,userLogin.Data.Id.ToString()),
 					new Claim(ClaimTypes.Name,userLoginReqestModel.Email)
 				};
 
@@ -40,15 +40,15 @@ namespace OlineAuctionMarketing.Controllers
 			var authenticationProperties = new AuthenticationProperties();
 			var principal = new ClaimsPrincipal(claimIdentity);
 			HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal, authenticationProperties);
-			if (userLogin.Date.Role == Enums.UserRole.Admin)
+			if (userLogin.Data.Role == Enums.UserRole.Admin)
 			{
 
 				// return RedirectToAction("Index", "Product");
 			}
-			if (userLogin.Date.Role == Enums.UserRole.Auctioneer)
+			if (userLogin.Data.Role == Enums.UserRole.Auctioneer)
 			{
 				// return RedirectToAction("DisplayProducts", "Product");
-			}*/
+			}
 			return RedirectToAction("Create", "Product");
 
 

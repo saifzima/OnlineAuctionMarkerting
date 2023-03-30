@@ -58,13 +58,21 @@ namespace OlineAuctionMarketing.Inplementation.Service
 		public UserResponseModel Login(UserLoginRequestModel userLoginRequestModel)
 		{
 			var user = _userRepository.GetByEmail(userLoginRequestModel.Email);
+			if(user == null)
+			{
+                return new UserResponseModel
+                {
+                    Status = false,
+                    Massage = "Invalid credentials"
+                };
+            }
 			var verified = BCrypt.Net.BCrypt.Verify(userLoginRequestModel.Password,user.Password);
 			if (verified)
 			{
 				return new UserResponseModel
 				{
 					Status = true,
-					Date = new UserDTO
+					Data = new UserDTO
 					{
 						Id = user.Id,
 						Email = userLoginRequestModel.Email,

@@ -92,6 +92,9 @@ namespace OlineAuctionMarketing.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<bool>("IsAvalible")
+                        .HasColumnType("tinyint(1)");
+
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("tinyint(1)");
 
@@ -126,8 +129,12 @@ namespace OlineAuctionMarketing.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<DateTime?>("EndingTime")
+                    b.Property<DateTime>("EndingTime")
                         .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<bool>("IsActive")
                         .HasColumnType("tinyint(1)");
@@ -141,6 +148,9 @@ namespace OlineAuctionMarketing.Migrations
                     b.Property<string>("ProductName")
                         .IsRequired()
                         .HasColumnType("longtext");
+
+                    b.Property<double>("StartingPrice")
+                        .HasColumnType("double");
 
                     b.Property<DateTime>("StartingTime")
                         .HasColumnType("datetime(6)");

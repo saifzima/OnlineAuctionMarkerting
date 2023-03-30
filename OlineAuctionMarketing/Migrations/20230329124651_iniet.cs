@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace OlineAuctionMarketing.Migrations
 {
-    public partial class inijjtj : Migration
+    public partial class iniet : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -23,6 +23,7 @@ namespace OlineAuctionMarketing.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Description = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
+                    IsAvalible = table.Column<bool>(type: "tinyint(1)", nullable: false),
                     IsDeleted = table.Column<bool>(type: "tinyint(1)", nullable: false),
                     Created = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     Modified = table.Column<DateTime>(type: "datetime(6)", nullable: false)
@@ -116,13 +117,16 @@ namespace OlineAuctionMarketing.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    Image = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
                     ProductName = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Description = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     IsActive = table.Column<bool>(type: "tinyint(1)", nullable: false),
                     StartingTime = table.Column<DateTime>(type: "datetime(6)", nullable: false),
-                    EndingTime = table.Column<DateTime>(type: "datetime(6)", nullable: true),
+                    EndingTime = table.Column<DateTime>(type: "datetime(6)", nullable: false),
+                    StartingPrice = table.Column<double>(type: "double", nullable: false),
                     AuctioneerId = table.Column<int>(type: "int", nullable: false),
                     CategoryId = table.Column<int>(type: "int", nullable: false),
                     IsDeleted = table.Column<bool>(type: "tinyint(1)", nullable: false),

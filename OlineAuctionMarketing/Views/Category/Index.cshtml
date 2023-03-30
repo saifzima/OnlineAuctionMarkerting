@@ -1,0 +1,50 @@
+﻿@model OlineAuctionMarketing.Models.DTO.Category.CategorysResponseModel
+
+<div>
+    <h4>Category</h4>
+    <hr />
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Description
+                </th>
+
+                <th>
+                    Actions
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model.Data)
+            {
+                <tr>
+                    <td scope="row">
+                        @item.Name
+
+                    </td>
+
+                    <td scope="row">
+                        @item.Description
+
+                    </td>
+                    
+                    <td scope="row">
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">View</a>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+    <form asp-action="Create">
+        <button type="submit" class="btn btn-success">Add Category</button>
+    </form>

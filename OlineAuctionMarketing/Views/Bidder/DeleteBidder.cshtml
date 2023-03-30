@@ -1,0 +1,52 @@
+﻿@model OlineAuctionMarketing.Models.DTO.Bidder.BidderResponseModel
+
+<h1>Bidder Information.</h1>
+
+<div class="form-container">
+
+    <div id="Data-form">
+
+
+        <div class="container1">
+            <div>
+                <form asp-action="Edit">
+
+                    <div class="form-group" hidden>
+                        @*<label asp-for="Data.Id" class="control-label"></label>*@
+                        <input asp-for="Data.Id" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Data.FirstName" class="control-label"></label>
+                        <input asp-for="Data.FirstName" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Data.LastName" class="control-label"></label>
+                        <input asp-for="Data.LastName" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Data.Password" class="control-label"></label>
+                        <input asp-for="Data.Password" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Data.Address" class="control-label"></label>
+                        <input asp-for="Data.Address" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Data.City" class="control-label"></label>
+                        <input asp-for="Data.City" class="form-control" />
+                    </div>
+
+                    <div>
+                        <button type="submit" class="btn btn-primary">Edit</button>
+                        <a asp-action="Index" class="btn btn-warning">Back to List</a>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+

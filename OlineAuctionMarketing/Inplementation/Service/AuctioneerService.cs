@@ -35,7 +35,7 @@ namespace OlineAuctionMarketing.Inplementation.Service
 				FirstName = createAuctioneerRequestModel.FirstName,
 				LastName = createAuctioneerRequestModel.LastName,
 				Email = createAuctioneerRequestModel.Email,
-				Password = createAuctioneerRequestModel.Password,
+				Password = BCrypt.Net.BCrypt.HashPassword(createAuctioneerRequestModel.Password,BCrypt.Net.SaltRevision.Revision2Y),
 				phoneNumber = createAuctioneerRequestModel.PhoneNumber,
 				Created = DateTime.Now,
 				Role = Enums.UserRole.Auctioneer,
@@ -68,9 +68,9 @@ namespace OlineAuctionMarketing.Inplementation.Service
 					Status = false
 				};
 			}
-			var deleteAuctioneer =
-			_auctioneerRepository.Delete(getAuctioneer);
-			return new BaseResponse
+			var deleteAuctioneer = _auctioneerRepository.Delete(getAuctioneer);
+/*            _userRepository.Delete(getAuctioneer.Users);
+*/            return new BaseResponse
 			{
 				Massage = "Deleted",
 				Status = true
@@ -99,7 +99,7 @@ namespace OlineAuctionMarketing.Inplementation.Service
 					FirstName = x.Users.FirstName,
 					LastName = x.Users.LastName,
 					Email = x.Users.Email,
-					Password = x.Users.Password,
+					Password = BCrypt.Net.BCrypt.HashPassword(x.Users.Password, BCrypt.Net.SaltRevision.Revision2Y),
 					PhoneNumber = x.Users.phoneNumber,
 					Created = x.Users.Created,
 
@@ -124,7 +124,7 @@ namespace OlineAuctionMarketing.Inplementation.Service
                 FirstName = get.Users.FirstName,
                 LastName = get.Users.LastName,
                 Email = get.Users.Email,
-                Password = get.Users.Password,
+                Password = BCrypt.Net.BCrypt.HashPassword(get.Users.Password, BCrypt.Net.SaltRevision.Revision2Y),
                 PhoneNumber = get.Users.phoneNumber,
                 Created = get.Users.Created,
             };
@@ -150,7 +150,7 @@ namespace OlineAuctionMarketing.Inplementation.Service
 			}
 			get.Users.FirstName = auctioneerUpdateRequestModel.Data.FirstName;
 			get.Users.LastName = auctioneerUpdateRequestModel.Data.LastName;
-			get.Users.Password = auctioneerUpdateRequestModel.Data.Password;
+			get.Users.Password = BCrypt.Net.BCrypt.HashPassword(auctioneerUpdateRequestModel.Data.Password, BCrypt.Net.SaltRevision.Revision2Y);
 			_userRepository.UpdateRole(get.Users);
 			return new BaseResponse
 			{

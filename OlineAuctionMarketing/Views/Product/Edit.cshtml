@@ -1,0 +1,66 @@
+﻿@model OlineAuctionMarketing.Models.DTO.Product.ProductResponseModel
+
+<div class="form-container">
+
+    <div id="Data-form">
+
+
+
+
+
+        <div class="container1">
+            <div>
+                <form asp-action="EditProduct">
+                    <h1>Modify @Model.Data.ProductName </h1>
+
+                    <div class="form-group" hidden>
+                        <label asp-for="Data.Id" class="control-label"></label>
+                        <input asp-for="Data.Id" name="Id" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Data.Description" class="control-label"></label>
+                        <input asp-for="Data.Description" name="Description" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Data.ProductName" class="control-label"></label>
+                        <input asp-for="Data.ProductName" name="ProductName" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Data.StartingPrice" class="control-label"></label>
+                        <input asp-for="Data.StartingPrice" name="StartingPrice" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Data.StartingTime" class="control-label"></label>
+                        <input asp-for="Data.StartingTime" name="StartingTime" class="form-control" />
+                    </div>
+
+
+                    <div class="form-group">
+                        <label asp-for="Data.EndingTime" type="number" class="control-label"></label>
+                        <input asp-for="Data.EndingTime" name="EndingTime" class="form-control" />
+
+                    </div>
+
+                    <div>
+                        <button type="submit" class="btn btn-primary">Edit</button>
+                        <a asp-action="Index" class="btn btn-warning">Back to List</a>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+</div>

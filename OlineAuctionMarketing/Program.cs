@@ -14,7 +14,6 @@ namespace OlineAuctionMarketing
 		{
 			var builder = WebApplication.CreateBuilder(args);
 
-			// Add services to the container.
 			builder.Services.AddControllersWithViews();
 
 			builder.Services.AddDbContext<ApplicationContext>(options => options.UseMySql( builder.Configuration.GetConnectionString("DefaultConnection"), ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
@@ -22,7 +21,12 @@ namespace OlineAuctionMarketing
 			builder.Services.AddScoped<IAuctioneerRepository, AuctioneerRepository>();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<IUserService, UserService>();
-
+			builder.Services.AddScoped<IBidderRepository, BidderRepository>();
+			builder.Services.AddScoped<IBidderService, BidderService>();
+			builder.Services.AddScoped<ICategoryService, CategoryService>();
+			builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+			builder.Services.AddScoped<IProductRepository, ProductRepository>();
+			builder.Services.AddScoped<IProductService, ProductService>();
             builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(config =>
     {
@@ -47,14 +51,13 @@ namespace OlineAuctionMarketing
 			app.UseStaticFiles();
 
 			app.UseRouting();
-
+			app.UseAuthentication();
 			app.UseAuthorization();
 
 			app.MapControllerRoute(
 				name: "default",
-				pattern: "{controller=Home}/{action=Index}/{id?}");
-
-			app.Run();
+				pattern: "{controller=Home}/{action=Index}/{id?}"); 
+			 app.Run();
 		}
 	}
 }

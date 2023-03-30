@@ -1,0 +1,51 @@
+﻿@model OlineAuctionMarketing.Models.DTO.Bidder.BidderResponseModel
+
+<h1>Details</h1>
+
+<div>
+    <h4>bidder</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Data.FirstName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Data.FirstName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Data.LastName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Data.LastName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Data.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Data.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Data.PhoneNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Data.PhoneNumber)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Data.Address)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Data.Address)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Data.City)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Data.City)
+        </dd>
+
+    </dl>
+</div>
+<div>
+    <a asp-action="DeleteBidder" asp-route-id="@Model.Data.Id" class="btn btn-danger">Delete</a>
+    <a asp-action="Index" class="btn btn-warning">Back to List</a>
+</div>

@@ -27,7 +27,7 @@ namespace OlineAuctionMarketing.Controllers
 			_auctioneerService.Create(auctioneerRequestModel);
 			return RedirectToAction("Login", "User");
 		}
-		[HttpDelete]
+		
 		public IActionResult DeleteAuctioneer(int id)
 		{
 			_auctioneerService.Delete(id);

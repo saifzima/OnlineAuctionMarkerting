@@ -2,6 +2,6 @@
 {
 	public class UserResponseModel:BaseResponse
 	{
-		public UserDTO Date { get; set; }
+		public UserDTO Data { get; set; }
 	}
 }
