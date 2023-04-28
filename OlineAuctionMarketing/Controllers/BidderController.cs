@@ -23,7 +23,7 @@ namespace OlineAuctionMarketing.Controllers
         {
             return View();
         }
-        public IActionResult CreateBidder(CreateBidderRequestModel bidderRequestModel)
+        public IActionResult CreateBidder(CreateBidsRequestModel bidderRequestModel)
         {
             _bidderService.Create(bidderRequestModel);
             return RedirectToAction("Login", "User");

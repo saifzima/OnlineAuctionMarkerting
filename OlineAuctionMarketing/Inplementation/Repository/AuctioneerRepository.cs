@@ -30,7 +30,7 @@ namespace OlineAuctionMarketing.Inplementation.Repository
 
 		public Auctioneer Get(Expression<Func<Auctioneer, bool>> expression)
 		{
-			var get = _context.Auctioneer.Include(x => x.Users).Include(a => a.Products).FirstOrDefault(expression);
+			var get = _context.Auctioneer.Include(x => x.Users).Include(a => a.Auctions).FirstOrDefault(expression);
 			return get;
 		}
 

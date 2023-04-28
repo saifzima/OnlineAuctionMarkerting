@@ -30,20 +30,20 @@ namespace OlineAuctionMarketing.Inplementation.Repository
 
         public Category Get(Expression<Func<Category, bool>> expression)
         {
-            var get = _context.Categories.Include(x => x.Products).FirstOrDefault(expression);
+            var get = _context.Categories.Include(x => x.Auctions).FirstOrDefault(expression);
             return get;
         }
 
         public IList<Category> GetAllCategories(Expression<Func<Category, bool>> expression)
         {
-            var getAllCategory = _context.Categories.Include(a => a.Products).Where(expression).ToList();
+            var getAllCategory = _context.Categories.Include(a => a.Auctions).Where(expression).ToList();
             return getAllCategory;
         }
 
 
         public Category GetCategoryId(int id)
         {
-            var get = _context.Categories.Include(d => d.Products).SingleOrDefault(r => r.Id == id);
+            var get = _context.Categories.Include(d => d.Auctions).SingleOrDefault(r => r.Id == id);
             return get;
         }
 

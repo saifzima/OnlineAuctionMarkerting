@@ -1,0 +1,42 @@
+﻿@model OlineAuctionMarketing.Models.DTO.Product.AuctionResponseModel
+
+<div class="form-container">
+
+    <div id="Data-form">
+
+        <div class="row">
+
+            <h1>Bid </h1>
+
+            <hr />
+            <div class="col-md-4">
+                <form asp-action="Create">
+
+                    <div class="form-group" hidden>
+                        <label asp-for="Data.Id" class="control-label"></label>
+                        <input asp-for="Data.Id" name="AuctionId" class="form-control" />
+                    </div> 
+@*                        <input name="id" type="text" class="form-control" value="@Model.Data.Id" readonly/>
+*@
+                    <div class="form-group">
+                        <label class="control-label"> Price</label>
+                        <input name="Price" type="number" class="form-control" min="@Model.Data.StartingPrice" value="@Model.Data.StartingPrice" />
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label">Quantity</label>
+                        <input name="Quantity" type="text" class="form-control" />
+                    </div>
+
+
+                    <input type="submit" value="Create" class="btn btn-success" />
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+</main>
+

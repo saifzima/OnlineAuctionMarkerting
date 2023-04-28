@@ -45,7 +45,6 @@ namespace OlineAuctionMarketing.Inplementation.Service
 			{
 				UsersId = userr.Id,
 				Created = DateTime.Now,
-
 			};
 
 			_auctioneerRepository.Create(auctionerr);

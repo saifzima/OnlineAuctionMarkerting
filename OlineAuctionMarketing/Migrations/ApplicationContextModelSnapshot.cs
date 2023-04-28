@@ -19,98 +19,7 @@ namespace OlineAuctionMarketing.Migrations
                 .HasAnnotation("ProductVersion", "6.0.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Auctioneer", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("Created")
-                        .HasColumnType("datetime(6)");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("tinyint(1)");
-
-                    b.Property<DateTime>("Modified")
-                        .HasColumnType("datetime(6)");
-
-                    b.Property<int>("UsersId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UsersId")
-                        .IsUnique();
-
-                    b.ToTable("Auctioneer");
-                });
-
-            modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Bidder", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    b.Property<string>("Address")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("City")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<DateTime>("Created")
-                        .HasColumnType("datetime(6)");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("tinyint(1)");
-
-                    b.Property<DateTime>("Modified")
-                        .HasColumnType("datetime(6)");
-
-                    b.Property<int>("UsersId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UsersId")
-                        .IsUnique();
-
-                    b.ToTable("Bidders");
-                });
-
-            modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Category", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("Created")
-                        .HasColumnType("datetime(6)");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<bool>("IsAvalible")
-                        .HasColumnType("tinyint(1)");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("tinyint(1)");
-
-                    b.Property<DateTime>("Modified")
-                        .HasColumnType("datetime(6)");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Categories");
-                });
-
-            modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Product", b =>
+            modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Auction", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -161,13 +70,16 @@ namespace OlineAuctionMarketing.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Auctions");
                 });
 
-            modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.ProductBidder", b =>
+            modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.AuctionBidder", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<int>("AuctionId")
                         .HasColumnType("int");
 
                     b.Property<int>("BidderId")
@@ -182,16 +94,146 @@ namespace OlineAuctionMarketing.Migrations
                     b.Property<DateTime>("Modified")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<int>("ProductId")
+                    b.HasKey("Id");
+
+                    b.HasIndex("AuctionId");
+
+                    b.HasIndex("BidderId");
+
+                    b.ToTable("AuctionBidder");
+                });
+
+            modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Auctioneer", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<DateTime>("Modified")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<int>("UsersId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("UsersId")
+                        .IsUnique();
+
+                    b.ToTable("Auctioneer");
+                });
+
+            modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Bidder", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<double>("Amount")
+                        .HasColumnType("double");
+
+                    b.Property<string>("City")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<DateTime>("Modified")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<int>("UsersId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UsersId")
+                        .IsUnique();
+
+                    b.ToTable("Bidders");
+                });
+
+            modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Bids", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<int>("AuctionId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("BidderId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<DateTime>("Modified")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("double");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Time")
+                        .HasColumnType("datetime(6)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AuctionId");
+
                     b.HasIndex("BidderId");
 
-                    b.HasIndex("ProductId");
+                    b.ToTable("Bids");
+                });
 
-                    b.ToTable("ProductBidder");
+            modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Category", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<bool>("IsAvalible")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<DateTime>("Modified")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Users", b =>
@@ -237,6 +279,44 @@ namespace OlineAuctionMarketing.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Auction", b =>
+                {
+                    b.HasOne("OlineAuctionMarketing.Models.Entities.Auctioneer", "Auctioneer")
+                        .WithMany("Auctions")
+                        .HasForeignKey("AuctioneerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("OlineAuctionMarketing.Models.Entities.Category", "Category")
+                        .WithMany("Auctions")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Auctioneer");
+
+                    b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.AuctionBidder", b =>
+                {
+                    b.HasOne("OlineAuctionMarketing.Models.Entities.Auction", "Auction")
+                        .WithMany("Bidder")
+                        .HasForeignKey("AuctionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("OlineAuctionMarketing.Models.Entities.Bidder", "Bidder")
+                        .WithMany("AuctionBidder")
+                        .HasForeignKey("BidderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Auction");
+
+                    b.Navigation("Bidder");
+                });
+
             modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Auctioneer", b =>
                 {
                     b.HasOne("OlineAuctionMarketing.Models.Entities.Users", "Users")
@@ -259,62 +339,45 @@ namespace OlineAuctionMarketing.Migrations
                     b.Navigation("Users");
                 });
 
-            modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Product", b =>
+            modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Bids", b =>
                 {
-                    b.HasOne("OlineAuctionMarketing.Models.Entities.Auctioneer", "Auctioneer")
-                        .WithMany("Products")
-                        .HasForeignKey("AuctioneerId")
+                    b.HasOne("OlineAuctionMarketing.Models.Entities.Auction", "Auction")
+                        .WithMany()
+                        .HasForeignKey("AuctionId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("OlineAuctionMarketing.Models.Entities.Category", "Category")
-                        .WithMany("Products")
-                        .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Auctioneer");
-
-                    b.Navigation("Category");
-                });
-
-            modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.ProductBidder", b =>
-                {
                     b.HasOne("OlineAuctionMarketing.Models.Entities.Bidder", "Bidder")
-                        .WithMany("ProductBidder")
+                        .WithMany("Bids")
                         .HasForeignKey("BidderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("OlineAuctionMarketing.Models.Entities.Product", "Product")
-                        .WithMany("Bidder")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("Auction");
 
                     b.Navigation("Bidder");
+                });
 
-                    b.Navigation("Product");
+            modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Auction", b =>
+                {
+                    b.Navigation("Bidder");
                 });
 
             modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Auctioneer", b =>
                 {
-                    b.Navigation("Products");
+                    b.Navigation("Auctions");
                 });
 
             modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Bidder", b =>
                 {
-                    b.Navigation("ProductBidder");
+                    b.Navigation("AuctionBidder");
+
+                    b.Navigation("Bids");
                 });
 
             modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Category", b =>
                 {
-                    b.Navigation("Products");
-                });
-
-            modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Product", b =>
-                {
-                    b.Navigation("Bidder");
+                    b.Navigation("Auctions");
                 });
 
             modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Users", b =>

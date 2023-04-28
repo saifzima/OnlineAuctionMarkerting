@@ -31,7 +31,7 @@ namespace OlineAuctionMarketing.Inplementation.Repository
 
         public Bidder Get(Expression<Func<Bidder, bool>> expression)
         {
-            var get = _context.Bidders.Include(x => x.Users).Include(a => a.ProductBidder).FirstOrDefault(expression);
+            var get = _context.Bidders.Include(x => x.Users).Include(a => a.AuctionBidder).FirstOrDefault(expression);
             return get;
         }
 
@@ -40,7 +40,10 @@ namespace OlineAuctionMarketing.Inplementation.Repository
             var getAllBidder = _context.Bidders.Include(a => a.Users).Where(expression).ToList();
             return getAllBidder;
         }
-
+       /* public IList<Bidder> GetAllProductBidders(int id)
+        {
+             
+        }*/
         public Bidder GetBidderByEmail(string email)
         {
             var get = _context.Bidders.Include(a => a.Users).SingleOrDefault(a => a.Users.Email == email);

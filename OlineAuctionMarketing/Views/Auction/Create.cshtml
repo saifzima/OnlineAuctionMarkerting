@@ -1,0 +1,66 @@
+﻿@model OlineAuctionMarketing.Models.DTO.Product.CreateAuctionRequestModel
+
+<style>
+    .form-container {
+        width: 20pc;
+    }
+</style>
+<main class="main">
+
+    <form class="form-container" asp-action="CreateAuction" enctype="multipart/form-data">
+
+        <div id="Data-form">
+            @using (Html.BeginForm("Create", "Auction"))
+            {
+
+                <h1>Create Auction</h1>
+
+                <hr />
+
+                <div class="form-group">
+                    @Html.LabelFor(x => x.ProductName, new {@class = "control-label"})
+                    @Html.TextBoxFor(x => x.ProductName, new {@class = "form-control"})
+                    @Html.ValidationMessageFor(x => x.ProductName,"", new {@class="text-danger"})
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(x => x.Description, new {@class = "control-label"})
+                    @Html.TextBoxFor(x => x.Description, new {@class = "form-control"})
+                    @Html.ValidationMessageFor(x => x.Description,"", new {@class="text-danger"})
+                </div>
+                <div class="form-group">
+                    <label asp-for="Image">Image</label>
+                    <input asp-for="Image" type="file" name="Image" required />
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.StartingPrice, new {@class = "control-label"})
+                    @Html.TextBoxFor(x => x.StartingPrice, new {@class = "form-control"})
+                    @Html.ValidationMessageFor(x => x.StartingPrice,"", new {@class="text-danger"})
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.StartingTime, new {@class = "control-label"})
+                    @Html.EditorFor(x => x.StartingTime, new {@class = "form-control"})
+                    @Html.ValidationMessageFor(x => x.StartingTime,"", new {@class="text-danger"})
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(x => x.EndingTime, new {@class = "control-label"})
+                    @Html.EditorFor(x => x.EndingTime, new {@class = "form-control"})
+                    @Html.ValidationMessageFor(x => x.EndingTime  ,"", new {@class="text-danger"})
+                </div>
+
+                <div class="form-group">
+                    <select asp-for="CategoryId" asp-items="ViewBag.Categories" required>
+                        <option value="" selected> ..Category </option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-success">Add</button>
+                </div>
+            }
+
+        </div>
+
+    </form>
+</main>

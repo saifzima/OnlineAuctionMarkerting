@@ -14,8 +14,8 @@ namespace OlineAuctionMarketing.Inplementation.Service
     {
         private readonly ApplicationContext _context;
         private readonly ICategoryRepository _categoryRepository;
-        private readonly IProductRepository _productRepository;
-        public CategoryService(ApplicationContext context,ICategoryRepository categoryRepository,IProductRepository productRepository)
+        private readonly IAuctionRepository _productRepository;
+        public CategoryService(ApplicationContext context,ICategoryRepository categoryRepository,IAuctionRepository productRepository)
         {
             _context = context;
             _categoryRepository = categoryRepository;

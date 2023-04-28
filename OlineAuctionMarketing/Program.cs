@@ -15,8 +15,9 @@ namespace OlineAuctionMarketing
 			var builder = WebApplication.CreateBuilder(args);
 
 			builder.Services.AddControllersWithViews();
+			string configuration = builder.Configuration.GetConnectionString("DefaultConnection");
 
-			builder.Services.AddDbContext<ApplicationContext>(options => options.UseMySql( builder.Configuration.GetConnectionString("DefaultConnection"), ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
+            builder.Services.AddDbContext<ApplicationContext>(options => options.UseMySql( configuration, ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));			
 			builder.Services.AddScoped<IAuctioneerService, AuctioneerService>();
 			builder.Services.AddScoped<IAuctioneerRepository, AuctioneerRepository>();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
@@ -25,8 +26,13 @@ namespace OlineAuctionMarketing
 			builder.Services.AddScoped<IBidderService, BidderService>();
 			builder.Services.AddScoped<ICategoryService, CategoryService>();
 			builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
-			builder.Services.AddScoped<IProductRepository, ProductRepository>();
-			builder.Services.AddScoped<IProductService, ProductService>();
+			builder.Services.AddScoped<IAuctionRepository, AuctionRepository>();
+			builder.Services.AddScoped<IAuctionService, AuctionService>();
+			builder.Services.AddScoped<IBidsRepository, BidsRepository>();
+			builder.Services.AddScoped<IBidsService, BidsService >();
+            builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            
+			//builder.Services.AddHttpContextAccessor();
             builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(config =>
     {

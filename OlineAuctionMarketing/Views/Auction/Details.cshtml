@@ -1,0 +1,33 @@
+﻿@model OlineAuctionMarketing.Models.DTO.Product.AuctionResponseModel
+
+<h1>Detail of Product</h1>
+
+<section style="background-color: #e3d6d6;">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6 col-xl-4">
+                <div class="card text-black">
+                    <i class="fab fa-apple fa-lg pt-3 pb-1 px-3"></i>
+                    <img src="https://localhost:7171/Images/@Model.Data.Image" alt="@Model. AlternateText" />
+                    <div class="card-body">
+                        <div class="text-center">
+                            <h5 class="card-title">@Model.Data.ProductName</h5>
+                        </div>
+                        <div>
+                            <div class="d-flex justify-content-between">
+                                <span>Quantity</span><span>@Model.Data.ProductName</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span>Price</span><span>#@Model.Data.StartingPrice</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span>Quality</span><span>@Model.Data.Description</span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-between total font-weight-bold mt-4">
+                            <span>Total</span><span>#@Model.Data.StartingPrice</span>
+                        </div>
+
+
+

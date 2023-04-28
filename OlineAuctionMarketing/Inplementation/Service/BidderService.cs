@@ -10,19 +10,17 @@ namespace OlineAuctionMarketing.Inplementation.Service
 {
     public class BidderService : IBidderService
     {
-        private readonly ApplicationContext _context;
         private readonly IUserRepository _userRepository;
         private readonly IAuctioneerRepository _auctioneerRepository;
         private readonly IBidderRepository _bidderRepository;
-        public BidderService(ApplicationContext context, IUserRepository user, IAuctioneerRepository auctioneerRepository, IBidderRepository bidderRepository)
+        public BidderService(IUserRepository user, IAuctioneerRepository auctioneerRepository, IBidderRepository bidderRepository)
         {
-            _context = context;
             _userRepository = user;
             _auctioneerRepository = auctioneerRepository;
             _bidderRepository = bidderRepository;
         }
 
-        public BidderResponseModel Create(CreateBidderRequestModel createBidderRequestModel)
+        public BidderResponseModel Create(CreateBidsRequestModel createBidderRequestModel)
         {
             var user = _userRepository.Get(x => x.Email == createBidderRequestModel.Email);
             if (user != null)

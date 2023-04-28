@@ -1,0 +1,47 @@
+﻿@model OlineAuctionMarketing.Models.DTO.Product.AuctionResponseModel
+
+<section style="background-color: #eee;">
+    @if (TempData["Message"] != null)
+    {
+        <p>@TempData["Message"]</p>
+    }
+    <h1>Display of Auction</h1>
+    <main>
+        <div class="container-fluid bg-trasparent my-4 p-3" style="position: relative;">
+            <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+                <main class="col">
+
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://localhost:7171/Images/@Model.Data.Image" height="150px" class="card-img-top" alt="@Model.Data.ProductName" ...">
+                            <div class="card-body">
+                                <div class="clearfix mb-3">
+                                    <span class="float-start badge rounded-pill bg-success">@Model.Data.StartingPrice</span>
+                                    @*<span class="float-end"><a href="#">Example</a></span>*@
+                                </div>
+                                <h5 class="card-title">@Model.Data.Description.</h5>
+                                <div class="d-grid gap-2 my-4">
+                                    @*<a href="#" class="btn btn-warning">Check offer</a>*@
+                                    <div>
+                                        <form asp-action="">
+                                            <div class="form-group">
+                                                <label class="control-label">Enter Amount:</label>
+                                                <input name=""  type="text" class="form-control" />
+                                            </div>
+                                            <input type="submit" value="Bid" class="btn btn-success" />
+                                        </form>
+
+                                        <a asp-controller="Bid" asp-action="Bid" asp-route-productId="@Model.Data.Id" class="btn btn-primary">Bid product</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </main>
+            </div>
+        </div>
+
+
+

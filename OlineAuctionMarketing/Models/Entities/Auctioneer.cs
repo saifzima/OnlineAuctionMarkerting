@@ -4,6 +4,6 @@
 	{
 		public int UsersId { get; set; }
 		public Users Users { get; set; }
-		public IList<Product> Products { get; set; } = new List<Product>();
+		public IList<Auction> Auctions { get; set; } = new List<Auction>();
 	}
 }

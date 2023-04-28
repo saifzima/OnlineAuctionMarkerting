@@ -1,0 +1,56 @@
+﻿@model OlineAuctionMarketing.Models.DTO.Product.AuctionResponseModel
+
+<h1>Auction Information.</h1>
+
+<div class="form-container">
+
+    <div id="Data-form">
+
+
+        <div class="container1">
+            <div>
+                <form asp-action="Edit">
+
+                    <div class="form-group" hidden>
+                        @*<label asp-for="Data.Id" class="control-label"></label>*@
+                        <input asp-for="Data.Id" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Data.ProductName" class="control-label"></label>
+                        <input asp-for="Data.ProductName" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Data.Description" class="control-label"></label>
+                        <input asp-for="Data.Description" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Data.Image" class="control-label"></label>
+                        <input asp-for="Data.Image" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Data.StartingPrice" class="control-label"></label>
+                        <input asp-for="Data.StartingPrice" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Data.StartingTime" class="control-label"></label>
+                        <input asp-for="Data.StartingTime" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Data.EndingTime" class="control-label"></label>
+                        <input asp-for="Data.EndingTime" class="form-control" />
+                    </div>
+
+                    <div>
+                        <button type="submit" class="btn btn-primary">Edit</button>
+                        <a asp-action="Index" class="btn btn-warning">Back to List</a>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>

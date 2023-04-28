@@ -6,7 +6,7 @@ namespace OlineAuctionMarketing.Interface.IService
 {
     public interface IBidderService
     {
-        BidderResponseModel Create(CreateBidderRequestModel createBidderRequestModel);
+        BidderResponseModel Create(CreateBidsRequestModel createBidderRequestModel);
         BaseResponse Update(BidderResponseModel bidderUpdateRequestModel, int bidderId);
         BaseResponse Delete(int BidderId);
         BidderResponseModel GetById(int BidderId);

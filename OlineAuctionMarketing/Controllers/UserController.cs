@@ -49,7 +49,12 @@ namespace OlineAuctionMarketing.Controllers
 			{
 				// return RedirectToAction("DisplayProducts", "Product");
 			}
-			return RedirectToAction("Create", "Product");
+			if(userLogin.Data.Role ==Enums.UserRole.Bidder)
+			{
+                return RedirectToAction("Create", "Bidder");
+
+            }
+            return RedirectToAction("Create", "Auction");
 
 
 		}

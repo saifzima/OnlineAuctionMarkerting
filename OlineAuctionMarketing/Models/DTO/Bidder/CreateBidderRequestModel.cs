@@ -1,6 +1,6 @@
 ﻿namespace OlineAuctionMarketing.Models.DTO.Bidder
 {
-    public class CreateBidderRequestModel
+    public class CreateBidsRequestModel
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }

@@ -9,10 +9,11 @@ namespace OlineAuctionMarketing.Context
 		{
 		}
 		public DbSet<Users> Users { get; set; }
-		public DbSet<Product> Products { get; set; }
+		public DbSet<Auction> Auctions { get; set; }
 		public DbSet<Category> Categories { get; set; }
 		public DbSet<Bidder> Bidders { get; set; }
 		public DbSet<Auctioneer> Auctioneer { get; set; }
-		public DbSet<ProductBidder> ProductBidder { get; set; }
-	}
+		public DbSet<AuctionBidder> AuctionBidder { get; set; }
+		public DbSet<Bids> Bids { get; set; }
+    }
 }
