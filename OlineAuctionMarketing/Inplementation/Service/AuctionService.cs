@@ -14,15 +14,17 @@ namespace OlineAuctionMarketing.Inplementation.Service
         private readonly IAuctionRepository _productRepository;
         private readonly IWebHostEnvironment _webpost;
         private readonly ICategoryRepository _categoryRepository;
-        public AuctionService(IAuctionRepository ProductRepository, IWebHostEnvironment webpost, IAuctioneerRepository auctioneerRepository, ICategoryRepository categoryRepository)
+        private readonly IBidsRepository _bidsRepository;
+        public AuctionService(IAuctionRepository ProductRepository, IWebHostEnvironment webpost, IAuctioneerRepository auctioneerRepository, ICategoryRepository categoryRepository, IBidsRepository bidsRepository)
         {
             _auctioneerRepository = auctioneerRepository;
             _productRepository = ProductRepository;
             _webpost = webpost;
-            _categoryRepository= categoryRepository;
+            _categoryRepository = categoryRepository;
+            _bidsRepository = bidsRepository;
         }
 
-       
+
         public AuctionResponseModel Create(CreateAuctionRequestModel createProductRequestModel,int userId)
         {
             var auctioneer = _auctioneerRepository.Get(x => x.UsersId == userId);
@@ -120,8 +122,10 @@ namespace OlineAuctionMarketing.Inplementation.Service
                 };
 
             }
+            var count = getAll.Count();
             return new AuctionsResponseModel
             {
+                NumberOfItems = count,
                 Massage = "successfully fetched",
                 Status = true,
                 Data = getAll.Select(x => new AuctionDTO
@@ -135,14 +139,16 @@ namespace OlineAuctionMarketing.Inplementation.Service
                     StartingPrice= x.StartingPrice,
                     Created= DateTime.Now,
                     Image = x.Image,
-
                 }).ToList()
             };
         }
 
-        public AuctionResponseModel GetById(int productId)
+        public AuctionResponseModel GetAuctionBidById(int auctionId)
         {
-            var getById = _productRepository.GetById(productId);
+            var getById = _productRepository.GetById(auctionId);
+            var auctionBid = _bidsRepository.GetAllAuctionBidders(x => x.AuctionId == auctionId);
+            var numbersOfBids = auctionBid.Count();
+            var highestBid = auctionBid.Max(x => x.Price);
             if (getById == null)
             {
                 return new AuctionResponseModel
@@ -163,9 +169,43 @@ namespace OlineAuctionMarketing.Inplementation.Service
                     IsActive = true,
                     StartingTime = getById.StartingTime,
                     EndingTime = getById.EndingTime,
+                    StartingPrice = highestBid,
+                    Created = DateTime.Now,
+                    Image = getById.Image,
+                    NumberOfBids = numbersOfBids,
+                }
+            };
+        }
+        
+        public AuctionResponseModel GetById(int productId)
+        {
+            var getById = _productRepository.GetById(productId);
+            if (getById == null)
+            {
+                return new AuctionResponseModel
+                {
+                    Massage = "Failed to get id",
+                    Status = false,
+                };
+            }
+            var numberOfBids = _bidsRepository.GetAllAuctionBidders(x => x.AuctionId == productId).Count();
+            return new AuctionResponseModel
+            {
+                
+                Massage = "successfully fetched",
+                Status = true,
+                Data = new AuctionDTO
+                {
+                    Id = getById.Id,
+                    ProductName = getById.ProductName,
+                    Description = getById.Description,
+                    IsActive = true,
+                    StartingTime = getById.StartingTime,
+                    EndingTime = getById.EndingTime,
                     StartingPrice = getById.StartingPrice,
                     Created = DateTime.Now,
-                    Image = getById.Image
+                    Image = getById.Image,
+                    NumberOfBids = numberOfBids,
                 }
             };
         }
@@ -253,6 +293,37 @@ namespace OlineAuctionMarketing.Inplementation.Service
             };
             return auctioBidder;
             
+        }
+
+        public AuctionsResponseModel GetAuctionByCategory(int categoryId)
+        {
+            var get = _productRepository.GetAllAuctions(x => x.CategoryId == categoryId).ToList();
+            if(get== null)
+            {
+                return new AuctionsResponseModel
+                {
+                    Massage = "failed to get category name",
+                    Status = false,
+                };
+            }
+            var auction = new AuctionsResponseModel
+            {
+                Massage = "successful",
+                Status = true,
+                Data = get.Select(x => new AuctionDTO
+                {
+                   Id = x.Id,
+                    ProductName = x.ProductName,
+                    Description = x.Description,
+                    IsActive= x.IsActive,
+                    StartingTime= x.StartingTime,
+                    EndingTime= x.EndingTime,   
+                    StartingPrice= x.StartingPrice,
+                    Created= DateTime.Now,
+                    Image = x.Image,
+                }).ToList()
+            };
+            return auction;
         }
     }
 }

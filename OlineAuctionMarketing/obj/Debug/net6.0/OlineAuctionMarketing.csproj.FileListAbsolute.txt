@@ -38,3 +38,9 @@ C:\Users\musta\source\repos\OlineAuctionMarketing\OlineAuctionMarketing\obj\Debu
 C:\Users\musta\source\repos\OlineAuctionMarketing\OlineAuctionMarketing\obj\Debug\net6.0\OlineAuctionMarketing.pdb
 C:\Users\musta\source\repos\OlineAuctionMarketing\OlineAuctionMarketing\obj\Debug\net6.0\OlineAuctionMarketing.genruntimeconfig.cache
 C:\Users\musta\source\repos\OlineAuctionMarketing\OlineAuctionMarketing\obj\Debug\net6.0\ref\OlineAuctionMarketing.dll
+C:\Users\musta\source\repos\OlineAuctionMarketing\OlineAuctionMarketing\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout - Copy.cshtml.rz.scp.css
+C:\Users\musta\source\repos\OlineAuctionMarketing\OlineAuctionMarketing\bin\Debug\net6.0\FubarCoder.RestSharp.Portable.Core.dll
+C:\Users\musta\source\repos\OlineAuctionMarketing\OlineAuctionMarketing\bin\Debug\net6.0\FubarCoder.RestSharp.Portable.HttpClient.dll
+C:\Users\musta\source\repos\OlineAuctionMarketing\OlineAuctionMarketing\bin\Debug\net6.0\JsonSubTypes.dll
+C:\Users\musta\source\repos\OlineAuctionMarketing\OlineAuctionMarketing\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\musta\source\repos\OlineAuctionMarketing\OlineAuctionMarketing\bin\Debug\net6.0\sib_api_v3_sdk.dll

@@ -14,7 +14,7 @@ namespace OlineAuctionMarketing.Interface.IService
         BaseResponse Delete(int bidId);
         BidResponseModel GetById(int bidId);
         BidsResponseModel GetAll();
-        AuctionBiddersResponseModel GetAllBids(int auctionId);
+        AuctionBiddersResponseModel GetAllAuctionBidders(int auctionId);
 
     }
 }

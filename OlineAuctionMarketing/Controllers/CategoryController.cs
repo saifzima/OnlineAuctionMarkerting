@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using OlineAuctionMarketing.Enums;
 using OlineAuctionMarketing.Inplementation.Service;
 using OlineAuctionMarketing.Interface.IService;
 using OlineAuctionMarketing.Models.DTO.Auctioneer;
 using OlineAuctionMarketing.Models.DTO.Category;
+using System.Security.Claims;
 
 namespace OlineAuctionMarketing.Controllers
 {
@@ -18,16 +20,23 @@ namespace OlineAuctionMarketing.Controllers
             var auctioneers = _categoryService.GetAll();
             return View(auctioneers);
         }
+        
         public IActionResult Create()
         {
+            var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
+            if (userRole != UserRole.Admin.ToString())
+            {
+                return RedirectToAction("Create", "Category");
+            }
             return View();
         }
 
         [HttpPost]
         public IActionResult CreateCategory(CreateCategoryRequestModel categoryRequestModel)
         {
-            _categoryService.Create(categoryRequestModel);
-            return RedirectToAction("Login", "User");
+           var category= _categoryService.Create(categoryRequestModel);
+            TempData["Massage"] = category.Massage;
+            return RedirectToAction("User", "Index");
         }
 
         public IActionResult DeleteCategory(int id)

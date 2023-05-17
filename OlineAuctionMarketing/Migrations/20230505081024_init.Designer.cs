@@ -11,8 +11,8 @@ using OlineAuctionMarketing.Context;
 namespace OlineAuctionMarketing.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20230418162941_hdkjdfhjjj")]
-    partial class hdkjdfhjjj
+    [Migration("20230505081024_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -52,6 +52,9 @@ namespace OlineAuctionMarketing.Migrations
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("tinyint(1)");
+
+                    b.Property<int>("ItemCondition")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("Modified")
                         .HasColumnType("datetime(6)");
@@ -174,6 +177,9 @@ namespace OlineAuctionMarketing.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<DateTime>("AuctionEndsTime")
+                        .HasColumnType("datetime(6)");
+
                     b.Property<int>("AuctionId")
                         .HasColumnType("int");
 
@@ -183,19 +189,27 @@ namespace OlineAuctionMarketing.Migrations
                     b.Property<DateTime>("Created")
                         .HasColumnType("datetime(6)");
 
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("tinyint(1)");
 
                     b.Property<DateTime>("Modified")
                         .HasColumnType("datetime(6)");
 
+                    b.Property<int>("NumberOfBidder")
+                        .HasColumnType("int");
+
                     b.Property<double>("Price")
                         .HasColumnType("double");
 
-                    b.Property<int>("Quantity")
-                        .HasColumnType("int");
+                    b.Property<string>("ProductName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
-                    b.Property<DateTime>("Time")
+                    b.Property<DateTime>("TimeLeft")
                         .HasColumnType("datetime(6)");
 
                     b.HasKey("Id");
@@ -279,6 +293,21 @@ namespace OlineAuctionMarketing.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Created = new DateTime(2023, 5, 5, 9, 10, 23, 670, DateTimeKind.Local).AddTicks(9259),
+                            Email = "Ibah@gmail.com",
+                            FirstName = "Aduni",
+                            IsDeleted = false,
+                            LastName = "Ibah",
+                            Modified = new DateTime(2023, 5, 5, 9, 10, 23, 670, DateTimeKind.Local).AddTicks(9272),
+                            Password = "$2b$10$vT8YhJxeoJzT5Ad5BayB0uxvWeHLJsfVhI4Ni0C3c6j69z0MuX0PO",
+                            Role = 1,
+                            phoneNumber = "08083901146"
+                        });
                 });
 
             modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Auction", b =>

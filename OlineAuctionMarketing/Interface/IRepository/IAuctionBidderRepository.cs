@@ -6,4 +6,6 @@ namespace OlineAuctionMarketing.Interface.IRepository;
 public interface IAuctionBidderRepository
 {
     ICollection<AuctionBidder> Get(Func<AuctionBidder, bool> expression);
+    AuctionBidder Create(AuctionBidder auctioneer);
+
 }

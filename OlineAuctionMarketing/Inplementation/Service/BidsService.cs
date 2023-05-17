@@ -1,12 +1,8 @@
-﻿using OlineAuctionMarketing.Inplementation.Repository;
-using OlineAuctionMarketing.Interface.IRepository;
+﻿using OlineAuctionMarketing.Interface.IRepository;
 using OlineAuctionMarketing.Interface.IService;
 using OlineAuctionMarketing.Models;
-using OlineAuctionMarketing.Models.DTO;
 using OlineAuctionMarketing.Models.DTO.AuctionBidder;
-using OlineAuctionMarketing.Models.DTO.Bidder;
 using OlineAuctionMarketing.Models.DTO.Bids;
-using OlineAuctionMarketing.Models.DTO.Category;
 using OlineAuctionMarketing.Models.Entities;
 using System.Security.Claims;
 
@@ -17,35 +13,50 @@ namespace OlineAuctionMarketing.Inplementation.Service
         private readonly IAuctionRepository _auctionRepository;
         private readonly IBidsRepository _bidsRepository;
         private readonly IHttpContextAccessor _httpContextAccessor;
-        public BidsService(IBidsRepository bidsRepository, IAuctionRepository auctionRepository, IHttpContextAccessor httpContextAccessor)
+        private readonly IAuctionBidderRepository _auctionBidderRepository;
+        private readonly IBidderRepository _bidderRepository;
+        public BidsService(IBidsRepository bidsRepository, IAuctionRepository auctionRepository, IHttpContextAccessor httpContextAccessor, IAuctionBidderRepository auctionBidderRepository, IBidderRepository bidderRepository)
         {
             _bidsRepository = bidsRepository;
             _auctionRepository = auctionRepository;
             _httpContextAccessor = httpContextAccessor;
+            _auctionBidderRepository = auctionBidderRepository;
+            _bidderRepository = bidderRepository;
         }
 
-        public BidResponseModel Create(CreateBidRequestModel createBidRequestModel)
+        public BidResponseModel Create(CreateBidRequestModel model)
         {
-            var bid = _bidsRepository.Get(x => x.Time == createBidRequestModel.Time);
-            if (bid != null)
+            var highestBid = 0.0;
+            var auctionBid = _bidsRepository.Get(x => x.AuctionId == model.AuctionId);
+            if (auctionBid != null)
             {
-
+                highestBid = _bidsRepository.GetHighestBids(x => x.AuctionId == model.AuctionId);
+            }
+            if (model.Price <= highestBid)
+            {
                 return new BidResponseModel
                 {
-                    Massage = "Name does not  exist",
+                    Massage = $"You can't bid lower than {highestBid} per product",
                     Status = false
                 };
             }
+            var userId = int.Parse(_httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
+            var bidder = _bidderRepository.Get(x => x.UsersId == userId);
+            var auctioBidder = new AuctionBidder
+            {
+                AuctionId = model.AuctionId,
+                BidderId = bidder.Id,
+                Created = DateTime.Now,
+            };
             var bids = new Bids
             {
-                BidderId = int.Parse(_httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value),
-                AuctionId = createBidRequestModel.AuctionId,
-                Price= createBidRequestModel.Price,
-                Time= createBidRequestModel.Time,
-                Quantity= createBidRequestModel.Quantity,
+                BidderId = bidder.Id,
+                AuctionId = model.AuctionId,
+                Price = model.Price,
                 Created = DateTime.Now,
             };
             _bidsRepository.Create(bids);
+            _auctionBidderRepository.Create(auctioBidder);
             return new BidResponseModel
             {
                 Massage = "Succeccfully created",
@@ -74,7 +85,7 @@ namespace OlineAuctionMarketing.Inplementation.Service
 
         public BidsResponseModel GetAll()
         {
-            var get = _bidsRepository.GetAllBids(x => true);
+            var get = _bidsRepository.GetAllAuctionBidders(x => true);
             if (get == null)
             {
                 return new BidsResponseModel
@@ -91,19 +102,18 @@ namespace OlineAuctionMarketing.Inplementation.Service
                 Data = get.Select(x => new BidsDTO
                 {
                     Id = x.Id,
-                    Price= x.Price,
-                    Quantity= x.Quantity,
-                    Time= x.Time,
+                    Price = x.Price,
+                    FirstName = x.Bidder.Users.FirstName,
+
                     Created = x.Created,
 
                 }).ToList(),
             };
         }
-        public AuctionBiddersResponseModel GetAllBids(int auctionId)
+        public AuctionBiddersResponseModel GetAllAuctionBidders(int auctionId)
         {
-            //var getAll = _auctionRepository.GetAuctionBidder(auctionId).ToList();
-            var getAll = _bidsRepository.GetAllBids(x => x.AuctionId == auctionId);
-            
+            var getAll = _bidsRepository.GetAllAuctionBidders(x => x.AuctionId == auctionId);
+
             if (getAll == null)
             {
                 return new AuctionBiddersResponseModel
@@ -120,9 +130,8 @@ namespace OlineAuctionMarketing.Inplementation.Service
                 Data = getAll.Select(x => new ActionBidderDTO
                 {
                     Id = x.Id,
-                    FirstName =x.Bidder.Users.FirstName,
-                    Price=x.Auction.StartingPrice,
-
+                    FirstName = x.Bidder.Users.FirstName,
+                    Price = x.Price,
                 }).ToList(),
             };
             return auctioBidder;
@@ -143,8 +152,6 @@ namespace OlineAuctionMarketing.Inplementation.Service
             {
                 Id = get.Id,
                 Price = get.Price,
-                Quantity= get.Quantity,
-                Time= get.Time,
                 IsDeleted = get.IsDeleted,
                 Modified = get.Modified,
                 Created = get.Created,
@@ -170,8 +177,6 @@ namespace OlineAuctionMarketing.Inplementation.Service
             }
             get.Id = bidId;
             get.Price = bidUpdateRequestModel.Data.Price;
-            get.Quantity = bidUpdateRequestModel.Data.Quantity;
-            get.Time = bidUpdateRequestModel.Data.Time;
             _bidsRepository.Update(get);
             return new BaseResponse
             {
@@ -179,5 +184,49 @@ namespace OlineAuctionMarketing.Inplementation.Service
                 Status = true,
             };
         }
+
+        //public BidResponseModel GetBidByAuctionId(int auctionId)
+        //{
+        //    var get = _bidsRepository.GetAllAuctionBids(x => x.AuctionId == auctionId);
+        //    if (get == null)
+        //    {
+        //        return new BidResponseModel
+        //        {
+        //            Status = false,
+        //            Massage = "Failed to fetch"
+        //        };
+        //    }
+        //    var bidsResponseModel = new BidResponseModel
+        //    {
+        //        Massage = "successful",
+        //        Status = true,
+        //        Data = get.Select(x => new BidsDTO
+        //        {
+        //            Id = x.Id,
+        //            Price = x.Auction.StartingPrice,
+        //            AuctionEndsTime = x.Auction.EndingTime,
+        //            Image = x.Auction.Image,
+        //            ProductName = x.Auction.ProductName,
+
+        //        }).ToList(),
+
+        //    };
+        //    var bid = new BidsDTO
+        //    {
+        //        Id = get.Id,
+        //        Price = get.Price,
+        //        IsDeleted = get.IsDeleted,
+        //        Modified = get.Modified,
+        //        Created = get.Created,
+        //    };
+        //    return new BidResponseModel
+        //    {
+        //        Data = bid,
+        //        Massage = "Successfully fetch",
+        //        Status = true
+        //    };
+        //}
+
+
     }
 }

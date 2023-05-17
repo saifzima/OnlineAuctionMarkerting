@@ -13,7 +13,12 @@ public class AuctionBidderRepository : IAuctionBidderRepository
     {
         _context = context;
     }
-
+    public AuctionBidder Create(AuctionBidder auctioneer)
+    {
+        _context.AuctionBidder.Add(auctioneer);
+        _context.SaveChanges();
+        return auctioneer;
+    }
     public ICollection<AuctionBidder> Get(Func<AuctionBidder, bool> expression)
     {
         var auctionBidder = _context.AuctionBidder.Include(x => x.Bidder).Include(y => y.Auction).Where(expression).ToList();

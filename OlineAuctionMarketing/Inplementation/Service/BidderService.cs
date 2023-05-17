@@ -20,11 +20,12 @@ namespace OlineAuctionMarketing.Inplementation.Service
             _bidderRepository = bidderRepository;
         }
 
-        public BidderResponseModel Create(CreateBidsRequestModel createBidderRequestModel)
+        public BidderResponseModel Create(CreateBidderRequestModel createBidderRequestModel)
         {
             var user = _userRepository.Get(x => x.Email == createBidderRequestModel.Email);
             if (user != null)
             {
+
 
                 return new BidderResponseModel
                 {
@@ -40,7 +41,7 @@ namespace OlineAuctionMarketing.Inplementation.Service
                 Password = BCrypt.Net.BCrypt.HashPassword(createBidderRequestModel.Password, BCrypt.Net.SaltRevision.Revision2Y),
                 phoneNumber = createBidderRequestModel.PhoneNumber,
                 Created = DateTime.Now,
-                Role = Enums.UserRole.Auctioneer,
+                Role = Enums.UserRole.Bidder,
             };
             _userRepository.Create(userr);
             var bidderr = new Bidder
@@ -103,6 +104,7 @@ namespace OlineAuctionMarketing.Inplementation.Service
                     Id = x.Id,
                     FirstName = x.Users.FirstName,
                     LastName = x.Users.LastName,
+                    Email = x.Users.Email,
                     Password = BCrypt.Net.BCrypt.HashPassword(x.Users.Password, BCrypt.Net.SaltRevision.Revision2Y),
                     PhoneNumber = x.Users.phoneNumber,
                     Address = x.Address,

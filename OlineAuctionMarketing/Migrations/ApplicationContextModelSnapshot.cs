@@ -51,6 +51,9 @@ namespace OlineAuctionMarketing.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("tinyint(1)");
 
+                    b.Property<int>("ItemCondition")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("Modified")
                         .HasColumnType("datetime(6)");
 
@@ -190,12 +193,6 @@ namespace OlineAuctionMarketing.Migrations
                     b.Property<double>("Price")
                         .HasColumnType("double");
 
-                    b.Property<int>("Quantity")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("Time")
-                        .HasColumnType("datetime(6)");
-
                     b.HasKey("Id");
 
                     b.HasIndex("AuctionId");
@@ -277,6 +274,21 @@ namespace OlineAuctionMarketing.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Created = new DateTime(2023, 5, 5, 12, 19, 31, 899, DateTimeKind.Local).AddTicks(6545),
+                            Email = "Ibah@gmail.com",
+                            FirstName = "Aduni",
+                            IsDeleted = false,
+                            LastName = "Ibah",
+                            Modified = new DateTime(2023, 5, 5, 12, 19, 31, 899, DateTimeKind.Local).AddTicks(6555),
+                            Password = "$2b$10$SXzeZXjrtJU.cdWSdbUNYuj/LkDgiBu18jPp6O.mYem7PzDGDkZZC",
+                            Role = 1,
+                            phoneNumber = "08083901146"
+                        });
                 });
 
             modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Auction", b =>

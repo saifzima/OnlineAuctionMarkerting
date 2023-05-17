@@ -11,5 +11,6 @@ namespace OlineAuctionMarketing.Interface.IService
 		AuctioneerResponseModel GetById(int AuctioneerId);
 		//AuctioneerResponseModel GetByEmail(string Email);
 		AuctioneersResponseModel GetAll();
+		AuctioneerResponseModel GetAllAuction(int AuctioneerId);
 	}
 }

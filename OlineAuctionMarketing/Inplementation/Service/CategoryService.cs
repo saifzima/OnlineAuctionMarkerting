@@ -1,4 +1,5 @@
 ﻿using OlineAuctionMarketing.Context;
+using OlineAuctionMarketing.Enums;
 using OlineAuctionMarketing.Inplementation.Repository;
 using OlineAuctionMarketing.Interface.IRepository;
 using OlineAuctionMarketing.Interface.IService;
@@ -7,6 +8,7 @@ using OlineAuctionMarketing.Models.DTO.Auctioneer;
 using OlineAuctionMarketing.Models.DTO.Bidder;
 using OlineAuctionMarketing.Models.DTO.Category;
 using OlineAuctionMarketing.Models.Entities;
+using System.Security.Claims;
 
 namespace OlineAuctionMarketing.Inplementation.Service
 {
@@ -81,7 +83,7 @@ namespace OlineAuctionMarketing.Inplementation.Service
                     Massage = "Failed to fetch",
                 };
             }
-
+            var count = get.Count();
             return new CategorysResponseModel
             {
                 Massage = "Successfully fetch",
