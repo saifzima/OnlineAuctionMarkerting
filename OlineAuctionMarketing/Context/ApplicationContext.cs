@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using OlineAuctionMarketing.Enums;
 using OlineAuctionMarketing.Models.Entities;
 
 namespace OlineAuctionMarketing.Context
@@ -15,5 +16,27 @@ namespace OlineAuctionMarketing.Context
 		public DbSet<Auctioneer> Auctioneer { get; set; }
 		public DbSet<AuctionBidder> AuctionBidder { get; set; }
 		public DbSet<Bids> Bids { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Users>().HasData(
+            new Users
+            {
+                Id = 1,
+                FirstName = "Aduni",
+                LastName = "Ibah",
+                Email = "Ibah@gmail.com",
+                Password = BCrypt.Net.BCrypt.HashPassword("mustaeenah"),
+                phoneNumber= "08083901146",
+                Role = UserRole.Admin,
+                Created = DateTime.Now,
+                Modified = DateTime.Now,
+            }
+            );
+
+        }
+        /* protected override void OnModelCreating(ModelBuilder modelBuilder)
+         {
+             modelBuilder.Entity<Category>().Ha
+         }*/
     }
 }

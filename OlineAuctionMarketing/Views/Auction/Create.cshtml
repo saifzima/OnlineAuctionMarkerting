@@ -10,6 +10,10 @@
     <form class="form-container" asp-action="CreateAuction" enctype="multipart/form-data">
 
         <div id="Data-form">
+            @if (TempData["Message"] != null)
+            {
+                <p>@TempData["Message"]</p>
+            }
             @using (Html.BeginForm("Create", "Auction"))
             {
 

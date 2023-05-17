@@ -1,20 +1,36 @@
-﻿<!DOCTYPE html>
+﻿@using System.Security.Claims;
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
+    @* <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - OlineAuctionMarketing</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/OlineAuctionMarketing.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/OlineAuctionMarketing.styles.css" asp-append-version="true" />*@
+    <link rel="stylesheet" href="~/css/Dashboard.css" />
+    <link rel="stylesheet" href="~/css/mdb.min.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="~/css/all.css" />
+    <link rel="stylesheet" href="~/css/bootstrap.bundle.min.js" />
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/jquery.min.js" />
+    <!-- Font Awesome -->
+    @*<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />*@
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">OlineAuctionMarketing</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">OnlineAuctionMarketing</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
@@ -23,27 +39,81 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home"
+                               asp-action="Privacy">Privacy</a>
+                        </li>
+
+                        @if (User.FindFirst(ClaimTypes.NameIdentifier) == null)
+                        {
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Login">Login</a>
+                            </li>
+                        }
+                        @if (User.FindFirst(ClaimTypes.NameIdentifier) != null)
+                        {
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Auctioneer"
+                               asp-action="Create">Auctioneer Registration</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link " href="/User/Logout">Logout</a>
+                            </li>
+                            @*<li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Category"
+                               asp-action="Create">Category</a>
+                            </li>*@
+                        }
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark"</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - OlineAuctionMarketing - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+
+    <!-- Jumbotron -->
+    @*  <!-- Heading -->
+    <div class="bg-primary mb-4">
+    <div class="container py-4">
+    <h3 class="text-white mt-2">Men's wear</h3>
+    <!-- Breadcrumb -->
+    <nav class="d-flex mb-2">
+    <h6 class="mb-0">
+    <a href="" class="text-white-50">Home</a>
+    <span class="text-white-50 mx-2"> > </span>
+    <a href="" class="text-white-50">Library</a>
+    <span class="text-white-50 mx-2"> > </span>
+    <a href="" class="text-white"><u>Data</u></a>
+    </h6>
+    </nav>
+    <!-- Breadcrumb -->
+    </div>
+    </div>
+    <!-- Heading -->*@
+    @*</header>*@
+    @*<div class="container">*@
+    @*<main role="main" class="pb-3">*@
+    @RenderBody()
+    @*</main>*@
+    @*</div>*@
+
+    @*</div>*@
+
+    <div class="d-flex align-items-center justify-content-between px-3 mt-3">
+    </div>
 </body>
 </html>
+@*
+    </div>
+    </div>
+    </div>
+
+    *@
+

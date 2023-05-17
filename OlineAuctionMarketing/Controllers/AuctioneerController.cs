@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using OlineAuctionMarketing.Enums;
 using OlineAuctionMarketing.Interface.IService;
 using OlineAuctionMarketing.Models.DTO.Auctioneer;
+using System.Security.Claims;
 
 namespace OlineAuctionMarketing.Controllers
 {
@@ -24,8 +26,9 @@ namespace OlineAuctionMarketing.Controllers
 		}
 		public IActionResult CreateAuctioneer(CreateAuctioneerRequestModel auctioneerRequestModel)
 		{
-			_auctioneerService.Create(auctioneerRequestModel);
-			return RedirectToAction("Login", "User");
+			var auction = _auctioneerService.Create(auctioneerRequestModel);
+            TempData["Message"] = auction.Massage;
+            return RedirectToAction("Login", "User");
 		}
 		
 		public IActionResult DeleteAuctioneer(int id)
@@ -58,9 +61,35 @@ namespace OlineAuctionMarketing.Controllers
 		}
 		public IActionResult GetAllAuctioneer()
 		{
-			var list = _auctioneerService.GetAll();
+            var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
+            if (userRole != UserRole.Admin.ToString())
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            var list = _auctioneerService.GetAll();
 			return View(list);
 		}
 
-	}
+		[HttpGet("GetById/id")]
+		public IActionResult GetById(int id)
+		{
+            var userRole = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userRole != UserRole.Auctioneer.ToString())
+            {
+                return RedirectToAction("DashBoard", "Auctioneer");
+            }
+            var auctioneer = _auctioneerService.GetById(id);
+			return View(auctioneer);	
+		}
+        public IActionResult DashBoard()
+        {
+            var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
+            if (userRole != UserRole.Auctioneer.ToString())
+            {
+				return RedirectToAction("Index", "Home");
+			}
+			return View();
+        }
+
+    }
 }

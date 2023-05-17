@@ -1,3 +1,4 @@
+using EasyLearn.GateWays.Email;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using OlineAuctionMarketing.Context;
@@ -22,6 +23,7 @@ namespace OlineAuctionMarketing
 			builder.Services.AddScoped<IAuctioneerRepository, AuctioneerRepository>();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<IUserService, UserService>();
+			builder.Services.AddScoped<IAuctionBidderRepository, AuctionBidderRepository>();
 			builder.Services.AddScoped<IBidderRepository, BidderRepository>();
 			builder.Services.AddScoped<IBidderService, BidderService>();
 			builder.Services.AddScoped<ICategoryService, CategoryService>();
@@ -30,6 +32,7 @@ namespace OlineAuctionMarketing
 			builder.Services.AddScoped<IAuctionService, AuctionService>();
 			builder.Services.AddScoped<IBidsRepository, BidsRepository>();
 			builder.Services.AddScoped<IBidsService, BidsService >();
+			builder.Services.AddScoped<ISendInBlueEmailService, SendInBlueEmailService>();
             builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             
 			//builder.Services.AddHttpContextAccessor();

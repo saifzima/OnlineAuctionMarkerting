@@ -1,10 +1,10 @@
-﻿@model OlineAuctionMarketing.Models.DTO.Bids.BidsResponseModel
+﻿@using OlineAuctionMarketing.Models.DTO.AuctionBidder;
+@model AuctionBiddersResponseModel;
 
 <div class="row">
     <div class="col-sm-11">
         <h2>
-            <a asp-action="Create">Create Bids</a>
-        </h2>
+            <a asp-action="Create">View Bidder</a>
         <div class="table-responsive">
 
             <table class="table table-hover table-striped table-bordered">
@@ -12,23 +12,15 @@
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col"><div class="row">
-    <div class="col-sm-11">
-        <h2>
-            <a asp-action="Create">Create Bids</a>
-        </h2>
+        
         <div class="">
 
             <table class="table table-bordered">
                 <thead>
                     <tr>
                         <th scope="col">#</th>
+                        <th scope="col">FirstName</th>
                         <th scope="col">Price</th>
-                        <th scope="col">Quantity</th>
-                        <th scope="col">Time</th>
-                        <th scope="col"></th>
-                        <th scope="col"></th>
-                        <th scope="col"></th>
-                        <th scope="col"></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -39,24 +31,9 @@
                     {
                         <tr>
                             <th scope="row">@serialNumber </th>
+                            <td>@item.FirstName</td>
                             <td>@item.Price</td>
-                            <td>@item.Quantity</td>
-                            <td>@item.Time</td>
-                            @*<td>
-                                <a asp-controller="Bids" asp-action="GetAllBids" asp-route-courseId="@item.Id" class="btn btn-success">More..</a>
-                            </td>*@
-                            <td>
-                                <a asp-action="Detail" asp-route-id="@item.Id" class="btn btn-success">Details</a>
-                            </td>
-                            
-                            <td>
-                                <a asp-action="DeletePreview" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
-                            </td>
-
-                            <td>
-                                <a asp-action="Update" asp-route-id="@item.Id" class="btn btn-info">Update</a>
-                            </td>
-
+                         
                         </tr>
 
                         serialNumber++;
@@ -69,7 +46,6 @@
         </div>
 
     </div>
-</div></th>
                       @*  <th scope="col">Price</th>
                         <th scope="col">Quantity</th>
                         <th scope="col">Time</th>

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace OlineAuctionMarketing.Migrations
 {
-    public partial class hdkjdfhj : Migration
+    public partial class init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -128,6 +128,7 @@ namespace OlineAuctionMarketing.Migrations
                     StartingTime = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     EndingTime = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     StartingPrice = table.Column<double>(type: "double", nullable: false),
+                    ItemCondition = table.Column<int>(type: "int", nullable: false),
                     AuctioneerId = table.Column<int>(type: "int", nullable: false),
                     CategoryId = table.Column<int>(type: "int", nullable: false),
                     IsDeleted = table.Column<bool>(type: "tinyint(1)", nullable: false),
@@ -188,9 +189,14 @@ namespace OlineAuctionMarketing.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    Image = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    ProductName = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    TimeLeft = table.Column<DateTime>(type: "datetime(6)", nullable: false),
+                    AuctionEndsTime = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     Price = table.Column<double>(type: "double", nullable: false),
-                    Quantity = table.Column<int>(type: "int", nullable: false),
-                    Time = table.Column<DateTime>(type: "datetime(6)", nullable: false),
+                    NumberOfBidder = table.Column<int>(type: "int", nullable: false),
                     AuctionId = table.Column<int>(type: "int", nullable: false),
                     BidderId = table.Column<int>(type: "int", nullable: false),
                     IsDeleted = table.Column<bool>(type: "tinyint(1)", nullable: false),
@@ -214,6 +220,11 @@ namespace OlineAuctionMarketing.Migrations
                         onDelete: ReferentialAction.Cascade);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.InsertData(
+                table: "Users",
+                columns: new[] { "Id", "Created", "Email", "FirstName", "IsDeleted", "LastName", "Modified", "Password", "Role", "phoneNumber" },
+                values: new object[] { 1, new DateTime(2023, 5, 5, 9, 10, 23, 670, DateTimeKind.Local).AddTicks(9259), "Ibah@gmail.com", "Aduni", false, "Ibah", new DateTime(2023, 5, 5, 9, 10, 23, 670, DateTimeKind.Local).AddTicks(9272), "$2b$10$vT8YhJxeoJzT5Ad5BayB0uxvWeHLJsfVhI4Ni0C3c6j69z0MuX0PO", 1, "08083901146" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AuctionBidder_AuctionId",

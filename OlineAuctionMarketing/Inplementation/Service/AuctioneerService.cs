@@ -68,8 +68,7 @@ namespace OlineAuctionMarketing.Inplementation.Service
 				};
 			}
 			var deleteAuctioneer = _auctioneerRepository.Delete(getAuctioneer);
-/*            _userRepository.Delete(getAuctioneer.Users);
-*/            return new BaseResponse
+            return new BaseResponse
 			{
 				Massage = "Deleted",
 				Status = true
@@ -106,7 +105,12 @@ namespace OlineAuctionMarketing.Inplementation.Service
 			};
 		}
 
-		public AuctioneerResponseModel GetById(int AuctioneerId)
+        public AuctioneerResponseModel GetAllAuction(int AuctioneerId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public AuctioneerResponseModel GetById(int AuctioneerId)
 		{
 			var get = _auctioneerRepository.Get(x => x.Id == AuctioneerId);
 			if (get == null)

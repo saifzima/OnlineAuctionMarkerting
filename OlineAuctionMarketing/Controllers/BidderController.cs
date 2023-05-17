@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using OlineAuctionMarketing.Enums;
 using OlineAuctionMarketing.Inplementation.Service;
 using OlineAuctionMarketing.Interface.IService;
 using OlineAuctionMarketing.Models.DTO.Auctioneer;
 using OlineAuctionMarketing.Models.DTO.Bidder;
+using System.Security.Claims;
 
 namespace OlineAuctionMarketing.Controllers
 {
@@ -23,10 +25,11 @@ namespace OlineAuctionMarketing.Controllers
         {
             return View();
         }
-        public IActionResult CreateBidder(CreateBidsRequestModel bidderRequestModel)
+        public IActionResult CreateBidder(CreateBidderRequestModel bidderRequestModel)
         {
-            _bidderService.Create(bidderRequestModel);
-            return RedirectToAction("Login", "User");
+            var bidder = _bidderService.Create(bidderRequestModel);
+            TempData["Massage"] = bidder.Massage;
+            return RedirectToAction("DisplayAuctions", "Auction");
         }
         public IActionResult DeleteBidder(int id)
         {
@@ -58,6 +61,11 @@ namespace OlineAuctionMarketing.Controllers
         }
         public IActionResult GetAllBidder()
         {
+            var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
+            if (userRole != UserRole.Admin.ToString())
+            {
+                return RedirectToAction("Create", "Auctioneer");
+            }
             var list = _bidderService.GetAll();
             return View(list);
         }

@@ -7,8 +7,13 @@ namespace OlineAuctionMarketing.Interface.IRepository
     {
         Bids Create(Bids bids);
         bool Delete(Bids bids);
-        IList<Bids> GetAllBids(Expression<Func<Bids, bool>> expression);
+        IList<Bids> GetAllAuctionBidders(Expression<Func<Bids, bool>> expression);
+        //IList<Bids> GetAllAuctionBids(Expression<Func<Bids, bool>> expression);
         Bids Get(Expression<Func<Bids, bool>> expression);
+        /*        List<Bids> GetList(Expression<Func<Bids, bool>> expression);
+        */
+        double GetHighestBids(Expression<Func<Bids, bool>> expression);
+
         Bids GetBidsId(int id);
         Bids Update(Bids bids);
 
