@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using OlineAuctionMarketing.Inplementation.Service;
 using OlineAuctionMarketing.Interface.IService;
 using OlineAuctionMarketing.Models.DTO.Product;
 using System.Security.Claims;
@@ -23,11 +22,25 @@ namespace OlineAuctionMarketing.Controllers
         }
         public IActionResult DisplayAuctions()
         {
+            var getAllCategory = _categoryService.GetAll();
+            ViewData["Categories"] = new SelectList(getAllCategory.Data, "Id", "Name");
             var auction = _auctionService.GetAll();
+            return View(auction);
+        }
+        public IActionResult GetAuctionsByAuctioneerId(int id)
+        {
+            //var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
+            var getAllCategory = _categoryService.GetAll();
+            ViewData["Categories"] = new SelectList(getAllCategory.Data, "Id", "Name");
+            var auction = _auctionService.GetAuctionsByAuctioneerId(id);
             return View(auction);
         }
         public IActionResult Create()
         {
+            if (User.FindFirst(ClaimTypes.Name) == null)
+            {
+                return RedirectToAction("Login", "User");
+            }
             var category = _categoryService.GetAll();
             ViewData["Categories"] = new SelectList(category.Data, "Id", "Name");
             return View();
@@ -40,9 +53,11 @@ namespace OlineAuctionMarketing.Controllers
             var createAuctions = _auctionService.Create(createAuction, int.Parse(user));
             if (createAuctions.Status == false)
             {
-                return View();
+                TempData["Message"] = createAuctions.Massage;
+
+                return View("Create");
             }
-            return RedirectToAction("Index");
+            return RedirectToAction("DashBoard", "Auctioneer");
         }
         public IActionResult DeleteAuction(int id)
         {
@@ -54,7 +69,7 @@ namespace OlineAuctionMarketing.Controllers
             var get = _auctionService.GetById(id);
             return View(get);
         }
-        
+
         public IActionResult Edit(int id)
         {
             var get = _auctionService.GetById(id);
@@ -62,15 +77,22 @@ namespace OlineAuctionMarketing.Controllers
         }
 
         [HttpPost]
-        public IActionResult EditAuction(AuctionUpdateRequestModel productUpdateReqestModel,int id)
+        public IActionResult EditAuction(AuctionUpdateRequestModel productUpdateReqestModel, int id)
         {
             _auctionService.Update(productUpdateReqestModel, id);
             return RedirectToAction("Index");
         }
+
         [HttpGet]
         public IActionResult Detail(int id)
         {
             var get = _auctionService.GetById(id);
+            return View(get);
+        }
+        [HttpGet]
+        public IActionResult GetAuctionBidById(int id)
+        {
+            var get = _auctionService.GetAuctionBidById(id);
             return View(get);
         }
         public IActionResult Auction(int productId)
@@ -85,6 +107,16 @@ namespace OlineAuctionMarketing.Controllers
             var auctionRequest = _auctionService.Auction(auctionRequestModel, int.Parse(user));
             TempData["Message"] = auctionRequest.Massage;
             return RedirectToAction("DisplayAuctions");
+        }
+
+        public IActionResult GetAuctionByCategory(int categoryId)
+        {
+            var get = _auctionService.GetAuctionByCategory(categoryId);
+            if (!get.Status)
+            {
+
+            }
+            return View(get);
         }
     }
 }

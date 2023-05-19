@@ -1,15 +1,21 @@
 ﻿@model OlineAuctionMarketing.Models.DTO.Product.CreateAuctionRequestModel
-
+@{
+    Layout = "_LayoutAuctioneer";
+}
 <style>
     .form-container {
         width: 20pc;
     }
 </style>
-<main class="main">
 
+<div>
     <form class="form-container" asp-action="CreateAuction" enctype="multipart/form-data">
 
         <div id="Data-form">
+            @if (TempData["Message"] != null)
+            {
+                <p>@TempData["Message"]</p>
+            }
             @using (Html.BeginForm("Create", "Auction"))
             {
 
@@ -63,4 +69,4 @@
         </div>
 
     </form>
-</main>
+</div>

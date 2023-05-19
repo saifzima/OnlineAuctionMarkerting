@@ -51,6 +51,9 @@ namespace OlineAuctionMarketing.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("tinyint(1)");
 
+                    b.Property<int>("ItemCondition")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("Modified")
                         .HasColumnType("datetime(6)");
 
@@ -190,12 +193,6 @@ namespace OlineAuctionMarketing.Migrations
                     b.Property<double>("Price")
                         .HasColumnType("double");
 
-                    b.Property<int>("Quantity")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("Time")
-                        .HasColumnType("datetime(6)");
-
                     b.HasKey("Id");
 
                     b.HasIndex("AuctionId");
@@ -267,8 +264,15 @@ namespace OlineAuctionMarketing.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<string>("ProfilePicture")
+                        .HasColumnType("longtext");
+
                     b.Property<int>("Role")
                         .HasColumnType("int");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<string>("phoneNumber")
                         .IsRequired()
@@ -277,6 +281,23 @@ namespace OlineAuctionMarketing.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Created = new DateTime(2023, 5, 18, 11, 47, 18, 856, DateTimeKind.Local).AddTicks(3313),
+                            Email = "Ibah@gmail.com",
+                            FirstName = "Aduni",
+                            IsDeleted = false,
+                            LastName = "Ibah",
+                            Modified = new DateTime(2023, 5, 18, 11, 47, 18, 856, DateTimeKind.Local).AddTicks(3330),
+                            Password = "$2b$10$rVqWBhJneyf3Bxx1dqxcnOVkXdV9Mm3OWfrLw7oD2HJTBugJe.lgi",
+                            ProfilePicture = "logo.jpg",
+                            Role = 1,
+                            UserName = "Admin",
+                            phoneNumber = "08083901146"
+                        });
                 });
 
             modelBuilder.Entity("OlineAuctionMarketing.Models.Entities.Auction", b =>

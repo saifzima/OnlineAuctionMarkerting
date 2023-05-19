@@ -28,17 +28,28 @@ namespace OlineAuctionMarketing.Inplementation.Repository
             _context.SaveChanges();
             return true;
         }
-
+        public double GetHighestBids(Expression<Func<Bids, bool>> expression)
+        {
+            var get = _context.Bids.Where(expression).Max(x => x.Price);
+            return get;
+        }
         public Bids Get(Expression<Func<Bids, bool>> expression)
         {
             var get = _context.Bids.Include(x => x.Bidder).FirstOrDefault(expression);
             return get;
         }
-        public IList<Bids> GetAllBids(Expression<Func<Bids, bool>> expression)
+
+        public IList<Bids> GetAllAuctionBidders(Expression<Func<Bids, bool>> expression)
         {
-            var getAllBids = _context.Bids.Include(a => a.Bidder).Where(expression).ToList();
+            var getAllBids = _context.Bids.Include(a => a.Bidder).ThenInclude(a => a.Users).Where(expression).ToList();
             return getAllBids;
         }
+        
+        //public IList<Bids> GetAllAuctionBids(Expression<Func<Bids, bool>> expression)
+        //{
+        //    var getAllBids = _context.Bids.Include(a => a.Auction).Where(expression).ToList();
+        //    return getAllBids;
+        //}
 
         public Bids GetBidsId(int id)
         {

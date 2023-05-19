@@ -1,129 +1,350 @@
 ﻿@model OlineAuctionMarketing.Models.DTO.Product.AuctionsResponseModel
+@{
+    Layout = "_LayoutAuctioneer";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="/css/mdb.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+    @if (TempData["Message"] != null)
+    {
+        <p>@TempData["Message"]</p>
+    }
+    <!-- sidebar + content -->
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <!-- sidebar -->
+                <div class="col-lg-3">
+                    <!-- Toggle button -->
+                    <button class="btn btn-outline-secondary mb-3 w-100 d-lg-none"
+                            type="button"
+                            data-mdb-toggle="collapse"
+                            data-mdb-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span>Show filter</span>
+                    </button>
+                    <!-- Collapsible wrapper -->
+                    <div class="collapse card d-lg-block mb-8" id="navbarSupportedContent">
+                       @*
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button text-dark bg-light"
+                                            type="button"
+                                            data-mdb-toggle="collapse"
+                                            data-mdb-target="#panelsStayOpen-collapseOne"
+                                            aria-expanded="true"
+                                            aria-controls="panelsStayOpen-collapseOne">
 
-<style>
-    <div class="container mt-5 mb-5" >
-    <div class="d-flex justify-content-center row" >
-    <div class="col-md-10" >
-    <div class="row p-2 bg-white border rounded" >
-    <div class="col-md-3 mt-1" > <img class="img-fluid img-responsive rounded product-image" src="https://i.imgur.com/QpjAiHq.jpg" > </div >
-    <div class="col-md-6 mt-1" >
-    <h5 > Quant olap shirts</h5 >
-    <div class="d-flex flex-row" >
-    <div class="ratings mr-2" > <i class="fa fa-star" > </i > <i class="fa fa-star" > </i > <i class="fa fa-star" > </i > <i class="fa fa-star" > </i > </div > <span > 310</span >
-    </div >
-    <div class="mt-1 mb-1 spec-1" > <span > 100% cotton</span > <span class="dot" > </span > <span > Light weight</span > <span class="dot" > </span > <span > Best finish<br > </span > </div >
-    <div class="mt-1 mb-1 spec-1" > <span > Unique design</span > <span class="dot" > </span > <span > For men</span > <span class="dot" > </span > <span > Casual<br > </span > </div >
-    <p class="text-justify text-truncate para mb-0" > There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.<br><br></p>
-    </div >
-    <div class="align-items-center align-content-center col-md-3 border-left mt-1" >
-    <div class="d-flex flex-row align-items-center" >
-    <h4 class="mr-1" > $13.99</h4 > <span class="strike-text" > $20.99</span >
-    </div >
-    <h6 class="text-success" > Free shipping</h6 >
-    <div class="d-flex flex-column mt-4" > <button class="btn btn-primary btn-sm" type="button" > Details</button > <button class="btn btn-outline-primary btn-sm mt-2" type="button" > Add to wishlist</button > </div >
-    </div >
-    </div >
-    <div class="row p-2 bg-white border rounded mt-2" >
-    <div class="col-md-3 mt-1" > <img class="img-fluid img-responsive rounded product-image" src="https://i.imgur.com/JvPeqEF.jpg" > </div >
-    <div class="col-md-6 mt-1" >
-    <h5 > Quant trident shirts</h5 >
-    <div class="d-flex flex-row" >
-    <div class="ratings mr-2" > <i class="fa fa-star" > </i > <i class="fa fa-star" > </i > <i class="fa fa-star" > </i > <i class="fa fa-star" > </i > </div > <span > 310</span >
-    </div >
-    <div class="mt-1 mb-1 spec-1" > <span > 100% cotton</span > <span class="dot" > </span > <span > Light weight</span > <span class="dot" > </span > <span > Best finish<br > </span > </div >
-    <div class="mt-1 mb-1 spec-1" > <span > Unique design</span > <span class="dot" > </span > <span > For men</span > <span class="dot" > </span > <span > Casual<br > </span > </div >
-    <p class="text-justify text-truncate para mb-0" > There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.<br><br></p>
-    </div >
-    <div class="align-items-center align-content-center col-md-3 border-left mt-1" >
-    <div class="d-flex flex-row align-items-center" >
-    <h4 class="mr-1" > $14.99</h4 > <span class="strike-text" > $20.99</span >
-    </div >
-    <h6 class="text-success" > Free shipping</h6 >
-    <div class="d-flex flex-column mt-4" > <button class="btn btn-primary btn-sm" type="button" > Details</button > <button class="btn btn-outline-primary btn-sm mt-2" type="button" > Add to wishlist</button > </div >
-    </div >
-    </div >
-    <div class="row p-2 bg-white border rounded mt-2" >
-    <div class="col-md-3 mt-1" > <img class="img-fluid img-responsive rounded product-image" src="https://i.imgur.com/Bf4dIaN.jpg" > </div >
-    <div class="col-md-6 mt-1" >
-    <h5 > Quant ruybi shirts</h5 >
-    <div class="d-flex flex-row" >
-    <div class="ratings mr-2" > <i class="fa fa-star" > </i > <i class="fa fa-star" > </i > <i class="fa fa-star" > </i > <i class="fa fa-star" > </i > </div > <span > 123</span >
-    </div >
-    <div class="mt-1 mb-1 spec-1" > <span > 100% cotton</span > <span class="dot" > </span > <span > Light weight</span > <span class="dot" > </span > <span > Best finish<br > </span > </div >
-    <div class="mt-1 mb-1 spec-1" > <span > Unique design</span > <span class="dot" > </span > <span > For men</span > <span class="dot" > </span > <span > Casual<br > </span > </div >
-    <p class="text-justify text-truncate para mb-0" > There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.<br><br></p>
-    </div >
-    <div class="align-items-center align-content-center col-md-3 border-left mt-1" >
-    <div class="d-flex flex-row align-items-center" >
-    <h4 class="mr-1" > $13.99</h4 > <span class="strike-text" > $20.99</span >
-    </div >
-    <h6 class="text-success" > Free shipping</h6 >
-    <div class="d-flex flex-column mt-4" > <button class="btn btn-primary btn-sm" type="button" > Details</button > <button class="btn btn-outline-primary btn-sm mt-2" type="button" > Add to wishlist</button > </div >
-    </div >
-    </div >
-    <div class="row p-2 bg-white border rounded mt-2" >
-    <div class="col-md-3 mt-1" > <img class="img-fluid img-responsive rounded product-image" src="https://i.imgur.com/HO8e9b8.jpg" > </div >
-    <div class="col-md-6 mt-1" >
-    <h5 > Quant tinor shirts</h5 >
-    <div class="d-flex flex-row" >
-    <div class="ratings mr-2" > <i class="fa fa-star" > </i > <i class="fa fa-star" > </i > <i class="fa fa-star" > </i > <i class="fa fa-star" > </i > </div > <span > 110</span >
-    </div >
-    <div class="mt-1 mb-1 spec-1" > <span > 100% cotton</span > <span class="dot" > </span > <span > Light weight</span > <span class="dot" > </span > <span > Best finish<br > </span > </div >
-    <div class="mt-1 mb-1 spec-1" > <span > Unique design</span > <span class="dot" > </span > <span > For men</span > <span class="dot" > </span > <span > Casual<br > </span > </div >
-    <p class="text-justify text-truncate para mb-0" > There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.<br><br></p>
-    </div >
-    <div class="align-items-center align-content-center col-md-3 border-left mt-1" >
-    <div class="d-flex flex-row align-items-center" >
-    <h4 class="mr-1" > $15.99</h4 > <span class="strike-text" > $21.99</span >
-    </div >
-    <h6 class="text-success" > Free shipping</h6 >
-    <div class="d-flex flex-column mt-4" > <button class="btn btn-primary btn-sm" type="button" > Details</button > <button class="btn btn-outline-primary btn-sm mt-2" type="button" > Add to wishlist</button > </div >
-    </div >
-    </div >
-    </div >
-    </div >
-    </div >
-</style>
-
-
-<div class="container mt-5 mb-5">
-    <div class="d-flex justify-content-center row">
-        <div class="col-md-10">
-
-            @foreach (var item in Model.Data)
-            {
-                <div class="row p-2 bg-white border rounded">
-                    <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image" src="https://localhost:7161/Images/@item.Image"></div>
-                    <div class="col-md-6 mt-1">
-                        <h5>@item.ProductName</h5>
-                        <div class="d-flex flex-row">
-                            <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>310</span>
+                                        Price
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree">
+                                    <div class="accordion-body">
+                                        <div class="range">
+                                            <input type="range" class="form-range" id="customRange1" />
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-6">
+                                                <p class="mb-0">
+                                                    Min
+                                                </p>
+                                                <div class="form-outline">
+                                                    <input type="number" id="typeNumber" class="form-control" />
+                                                    <label class="form-label" for="typeNumber">$0</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="mb-0">
+                                                    Max
+                                                </p>
+                                                <div class="form-outline">
+                                                    <input type="number" id="typeNumber" class="form-control" />
+                                                    <label class="form-label" for="typeNumber">$1,0000</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="btn btn-white w-100 border border-secondary">apply</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button text-dark bg-light"
+                                            type="button"
+                                            data-mdb-toggle="collapse"
+                                            data-mdb-target="#panelsStayOpen-collapseFour"
+                                            aria-expanded="false"
+                                            aria-controls="panelsStayOpen-collapseFour">
+                                        Ratings
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingThree">
+                                    <div class="accordion-body">
+                                        <!-- Default checkbox -->
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked />
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                <i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-secondary"></i>
+                                            </label>
+                                        </div>
+                                        <!-- Default checkbox -->
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked />
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                <i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-secondary"></i>
+                                            </label>
+                                        </div>
+                                        <!-- Default checkbox -->
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked />
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                <i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-secondary"></i>
+                                                <i class="fas fa-star text-secondary"></i>
+                                            </label>
+                                        </div>
+                                        <!-- Default checkbox -->
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked />
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                <i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-secondary"></i><i class="fas fa-star text-secondary"></i>
+                                                <i class="fas fa-star text-secondary"></i>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="mt-1 mb-1 spec-1"><span>@item.Description</span></div>
-                        <div class="mt-1 mb-1 spec-1"><span>@item.StartingTime</span></div>
+                *@
                     </div>
 
-                    <div class="align-items-center align-content-center col-md-3 border-left mt-1">
-                        <div class="d-flex flex-row align-items-center">
-                            <h4 class="mr-1">$@item.StartingPrice</h4><span class="strike-text">$@item.StartingPrice</span>
-                        </div>
-                        <h6 class="text-success">Free shipping</h6>
-                        <div class="d-flex flex-column mt-4">
-                            <a asp-controller="Auction" asp-action="Details" asp-route-id="@item.Id">
-                            <button class="btn btn-primary btn-sm" type="button" >Details</button>
-                        </a>
-                            <a asp-controller="Bids" asp-action="Create" asp-route-auctionId="@item.Id">
-                            <button class="btn btn-outline-primary btn-sm mt-2" >
-                                Bids   
+                </div>
+                <!-- sidebar -->
+                <!-- content -->
+                <div class="col-lg-12">
+                    <header class="d-sm-flex align-items-center border-bottom mb-4 pb-3">
+                        <strong class="d-block py-2">@Model.NumberOfItems Items found </strong>
 
-                            </button>
-                            </a>
+
+                        <div class="ms-auto">
+                            <form asp-controller="Auction" asp-action="GetAuctionByCategory">
+                                <select name="categoryId" asp-items="ViewBag.Categories" class="form-select d-inline-block w-auto border pt-1">
+                                    <option value="selected">Category</option>
+                                </select>
+                                <div class="btn-group shadow-0 border">
+                                    <input type="submit" class="btn btn-light" title="List view" />s
+                                    <a href="#" class="btn btn-light active" title="Grid view">
+                                        <i class="fa fa-th fa-lg"></i>
+                                    </a>
+                                </div>
+                            </form>
                         </div>
+                    </header>
+
+                    <div class="row">
+                        @foreach (var item in Model.Data)
+                        {
+                            <div class="col-lg-4 col-md-6 col-sm-6 d-flex">
+                                <div class="card w-100 my-2 shadow-2-strong">
+                                    <img src="https://localhost:7161/Images/@item.Image" class="card-img-top" />
+                                    <div class="card-body d-flex flex-column">
+                                        <div class="d-flex flex-row">
+                                            <h5 class="mb-1 me-1">₦@item.StartingPrice</h5>
+                                            <span class="text-danger"><s>₦@item.StartingPrice</s></span>
+                                        </div>
+                                        <p class="card-text">@item.Description</p>
+                                        <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                                            <a asp-controller="Bids" asp-action="Create" asp-route-auctionId="@item.Id" class="btn btn-primary shadow-0 me-1">Bid now</a>
+                                            <a href="#!" class="btn btn-light border icon-hover px-2 pt-2"><i class="fas fa-heart fa-lg text-secondary px-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+
+
+                        <hr />
+
+                        <!-- Pagination -->
+                        <nav aria-label="Page navigation example" class="d-flex justify-content-center mt-3">
+                            <ul class="pagination">
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- Pagination -->
                     </div>
                 </div>
-            }
+            </div>
+    </section>
+    <!-- sidebar + content -->
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-muted bg-primary mt-3">
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start pt-4 pb-4">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-12 col-lg-3 col-sm-12 mb-2">
+                        <!-- Content -->
+                        <a href="https://mdbootstrap.com/" target="_blank" class="text-white h2">
+                            OlineAuction
+                        </a>
+                        <p class="mt-1 text-white">
+                            © 2023 Copyright: OnlineAuction.com
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <!-- Links -->
+                        <h6 class="text-uppercase text-white fw-bold mb-2">
+                            Store
+                        </h6>
+                        <ul class="list-unstyled mb-4">
+                            <li><a class="text-white-50" href="#">About us</a></li>
+                            <li><a class="text-white-50" href="#">Find store</a></li>
+                            <li><a class="text-white-50" href="#">Categories</a></li>
+                            <li><a class="text-white-50" href="#">Blogs</a></li>
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <!-- Links -->
+                        <h6 class="text-uppercase text-white fw-bold mb-2">
+                            Information
+                        </h6>
+                        <ul class="list-unstyled mb-4">
+                            <li><a class="text-white-50" href="#">Help center</a></li>
+                            <li><a class="text-white-50" href="#">Money refund</a></li>
+                            <li><a class="text-white-50" href="#">Shipping info</a></li>
+                            <li><a class="text-white-50" href="#">Refunds</a></li>
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <!-- Links -->
+                        <h6 class="text-uppercase text-white fw-bold mb-2">
+                            Support
+                        </h6>
+                        <ul class="list-unstyled mb-4">
+                            <li><a class="text-white-50" href="#">Help center</a></li>
+                            <li><a class="text-white-50" href="#">Documents</a></li>
+                            <li><a class="text-white-50" href="#">Account restore</a></li>
+                            <li><a class="text-white-50" href="#">My orders</a></li>
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-12 col-sm-12 col-lg-3">
+                        <!-- Links -->
+                        <h6 class="text-uppercase text-white fw-bold mb-2">Newsletter</h6>
+                        <p class="text-white">Stay in touch with latest updates about our products and offers</p>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control border" placeholder="Email" aria-label="Email" aria-describedby="button-addon2" />
+                            <button class="btn btn-light border shadow-0" type="button" id="button-addon2" data-mdb-ripple-color="dark">
+                                Join
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <div class="">
+            <div class="container">
+                <div class="d-flex justify-content-between py-4 border-top">
+                    <!--- payment --->
+                    <div>
+                        <i class="fab fa-lg fa-cc-visa text-white"></i>
+                        <i class="fab fa-lg fa-cc-amex text-white"></i>
+                        <i class="fab fa-lg fa-cc-mastercard text-white"></i>
+                        <i class="fab fa-lg fa-cc-paypal text-white"></i>
+                    </div>
+                    <!--- payment --->
+                    <!--- language selector --->
+                    <div class="dropdown dropup">
+                        <a class="dropdown-toggle text-white" href="#" id="Dropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false"> <i class="flag-united-kingdom flag m-0 me-1"></i>English </a>
+
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="Dropdown">
+                            <li>
+                                <a class="dropdown-item" href="#"><i class="flag-united-kingdom flag"></i>English <i class="fa fa-check text-success ms-2"></i></a>
+                            </li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li>
+                                <a class="dropdown-item" href="#"><i class="flag-poland flag"></i>Polski</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"><i class="flag-china flag"></i>中文</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"><i class="flag-japan flag"></i>日本語</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"><i class="flag-germany flag"></i>Deutsch</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"><i class="flag-france flag"></i>Français</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"><i class="flag-spain flag"></i>Español</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"><i class="flag-russia flag"></i>Русский</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"><i class="flag-portugal flag"></i>Português</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--- language selector --->
+                </div>
+            </div>
         </div>
-    </div>
-</div>
+    </footer>
+    <!-- Footer -->
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
 
 

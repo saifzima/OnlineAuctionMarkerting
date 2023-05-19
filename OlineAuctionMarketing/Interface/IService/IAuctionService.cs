@@ -12,7 +12,10 @@ namespace OlineAuctionMarketing.Interface.IService
         BaseResponse Auction(AuctionRequestModel auctionRequestModel, int userId);
         BaseResponse Delete(int auctionId);
         AuctionResponseModel GetById(int auctionId);
+        AuctionResponseModel GetAuctionBidById(int auctionId);
         AuctionsResponseModel GetAll();
+        AuctionsResponseModel GetAuctionsByAuctioneerId(int auctioneerId);
         BiddersResponseModel GetAuctionBidder(int auctionId);
+        AuctionsResponseModel GetAuctionByCategory(int categoryId);
     }
 }
