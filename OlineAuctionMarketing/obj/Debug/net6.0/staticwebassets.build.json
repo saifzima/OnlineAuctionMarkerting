@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Y1/VteKFjaclx8EkSacROKXss1VPxPkX8TXA/olU+Fw=",
+  "Hash": "SM9N2bN5noCLGxPYgbWJ1AqZnLeyJfvBNmH+/ivKTW4=",
   "Source": "OlineAuctionMarketing",
   "BasePath": "_content/OlineAuctionMarketing",
   "Mode": "Default",
@@ -1462,6 +1462,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\dae8e73e-80cf-473e-8562-6e8e61046687.jpeg"
     },
     {
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\db074b2a-463b-4e16-9e0d-1bf318e03073.jpeg",
+      "SourceId": "OlineAuctionMarketing",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
+      "BasePath": "_content/OlineAuctionMarketing",
+      "RelativePath": "Images/db074b2a-463b-4e16-9e0d-1bf318e03073.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\db074b2a-463b-4e16-9e0d-1bf318e03073.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\db4fbc13-b5b2-480e-a508-3832938a57f6.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
@@ -1496,6 +1513,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\dd4ddb55-4748-4778-a968-11dfe6c3c537.jpeg"
     },
     {
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\e2ad7261-2c7e-4197-8a65-f430688430b2.jpeg",
+      "SourceId": "OlineAuctionMarketing",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
+      "BasePath": "_content/OlineAuctionMarketing",
+      "RelativePath": "Images/e2ad7261-2c7e-4197-8a65-f430688430b2.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\e2ad7261-2c7e-4197-8a65-f430688430b2.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\e3420c8b-bf40-491b-9fae-de88c153452f.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
@@ -1528,6 +1562,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\e578e9cb-ff58-47bd-8ba4-95111f11d7b2.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\e5ebb026-fe03-482d-9fb8-75f24250f4e1.jpeg",
+      "SourceId": "OlineAuctionMarketing",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
+      "BasePath": "_content/OlineAuctionMarketing",
+      "RelativePath": "Images/e5ebb026-fe03-482d-9fb8-75f24250f4e1.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\e5ebb026-fe03-482d-9fb8-75f24250f4e1.jpeg"
     },
     {
       "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\eb7d9e49-24c3-4b12-8883-d81311b5368a.jpeg",

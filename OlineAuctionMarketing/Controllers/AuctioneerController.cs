@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using OlineAuctionMarketing.Enums;
 using OlineAuctionMarketing.Interface.IService;
 using OlineAuctionMarketing.Models.DTO.Auctioneer;
@@ -70,24 +71,24 @@ namespace OlineAuctionMarketing.Controllers
 			return View(list);
 		}
 
-		[HttpGet("GetById/id")]
 		public IActionResult GetById(int id)
 		{
-            var userRole = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (userRole != UserRole.Auctioneer.ToString())
-            {
-                return RedirectToAction("DashBoard", "Auctioneer");
-            }
+            //var userRole = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            //if (userRole != UserRole.Auctioneer.ToString())
+            //{
+            //    return RedirectToAction("DashBoard", "Auctioneer");
+            //}
             var auctioneer = _auctioneerService.GetById(id);
 			return View(auctioneer);	
 		}
+		[Authorize(Roles ="Auctioneer")]
         public IActionResult DashBoard()
         {
-            var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
+           /* var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
             if (userRole != UserRole.Auctioneer.ToString())
             {
 				return RedirectToAction("Index", "Home");
-			}
+			}*/
 			return View();
         }
 

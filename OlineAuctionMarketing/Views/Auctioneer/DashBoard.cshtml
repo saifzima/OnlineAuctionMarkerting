@@ -5,7 +5,7 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
-
+@using System.Security.Claims;
 
 
 <nav class="navbar navbar-expand navbar-dark bg-primary">
@@ -20,15 +20,17 @@
 </nav>
 <div id="wrapper" class="toggled">
     <!-- Sidebar -->
+    @{
+        var user = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+    }
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <li class="sidebar-brand"> <a href="#"> Admin Dashboard </a> </li>
             
-            @*<li> <a class="nav-link" asp-controller="Auctioneer" asp-action="GetById" asp-route-d="@Model.Data.Id">View Auctioneer</a> </li>
-            <li> <a class="nav-link" asp-controller="Auctioneer" asp-action=""</a> </li>*@
-           @* <li class="nav-item">
-                <a class="nav-link" asp-action="GetAllAuctionBidders" asp-route-auctionId="@Model.Data.Id">View Bidder</a>
-            </li>*@
+            <li> <a class="nav-link" asp-controller="Auctioneer" asp-action="GetById" asp-route-id="@user" >My Profile</a> </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-action="GetAllAuctionBidders" >View Bidder</a>
+            </li>
 
             @*<li> <a href="#">Events</a> </li>
             <li> <a href="#">About</a> </li>
