@@ -264,8 +264,15 @@ namespace OlineAuctionMarketing.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<string>("ProfilePicture")
+                        .HasColumnType("longtext");
+
                     b.Property<int>("Role")
                         .HasColumnType("int");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<string>("phoneNumber")
                         .IsRequired()
@@ -279,14 +286,16 @@ namespace OlineAuctionMarketing.Migrations
                         new
                         {
                             Id = 1,
-                            Created = new DateTime(2023, 5, 5, 12, 19, 31, 899, DateTimeKind.Local).AddTicks(6545),
+                            Created = new DateTime(2023, 5, 18, 11, 47, 18, 856, DateTimeKind.Local).AddTicks(3313),
                             Email = "Ibah@gmail.com",
                             FirstName = "Aduni",
                             IsDeleted = false,
                             LastName = "Ibah",
-                            Modified = new DateTime(2023, 5, 5, 12, 19, 31, 899, DateTimeKind.Local).AddTicks(6555),
-                            Password = "$2b$10$SXzeZXjrtJU.cdWSdbUNYuj/LkDgiBu18jPp6O.mYem7PzDGDkZZC",
+                            Modified = new DateTime(2023, 5, 18, 11, 47, 18, 856, DateTimeKind.Local).AddTicks(3330),
+                            Password = "$2b$10$rVqWBhJneyf3Bxx1dqxcnOVkXdV9Mm3OWfrLw7oD2HJTBugJe.lgi",
+                            ProfilePicture = "logo.jpg",
                             Role = 1,
+                            UserName = "Admin",
                             phoneNumber = "08083901146"
                         });
                 });

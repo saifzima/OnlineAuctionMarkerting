@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authentication;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using OlineAuctionMarketing.Interface.IService;
 using OlineAuctionMarketing.Models.DTO.Users;
@@ -55,14 +55,14 @@ namespace OlineAuctionMarketing.Controllers
             }
             if (userLogin.Data.Role == Enums.UserRole.Auctioneer)
             {
-                return RedirectToAction("Create", "Auction");
+                return RedirectToAction("DashBoard", "Auctioneer");
             }
             if (userLogin.Data.Role == Enums.UserRole.Bidder)
             {
                 return RedirectToAction("DisplayAuctions", "Auction");
 
             }
-            return RedirectToAction("Index", "home");
+            return RedirectToAction();
 
 
         }
@@ -71,6 +71,24 @@ namespace OlineAuctionMarketing.Controllers
         {
             HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction(nameof(Login));
+        }
+        public IActionResult UpdatePassword(int id)
+        {
+            var get = _userService.GetById(id);
+            return View(get);
+        }
+
+        public IActionResult Update(int id)
+        {
+            var get = _userService.GetById(id);
+            return View(get);
+        }
+
+        [HttpPost]
+        public IActionResult Update(UserResponseModel userResponseModel, int id)
+        {
+            _userService.Update(userResponseModel, id);
+            return RedirectToAction("Index");
         }
     }
 }

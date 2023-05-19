@@ -18,11 +18,11 @@ namespace OlineAuctionMarketing
 			builder.Services.AddControllersWithViews();
 			string configuration = builder.Configuration.GetConnectionString("DefaultConnection");
 
-            builder.Services.AddDbContext<ApplicationContext>(options => options.UseMySql( configuration, ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));			
+			builder.Services.AddDbContext<ApplicationContext>(options => options.UseMySql(configuration, ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
 			builder.Services.AddScoped<IAuctioneerService, AuctioneerService>();
 			builder.Services.AddScoped<IAuctioneerRepository, AuctioneerRepository>();
-            builder.Services.AddScoped<IUserRepository, UserRepository>();
-            builder.Services.AddScoped<IUserService, UserService>();
+			builder.Services.AddScoped<IUserRepository, UserRepository>();
+			builder.Services.AddScoped<IUserService, UserService>();
 			builder.Services.AddScoped<IAuctionBidderRepository, AuctionBidderRepository>();
 			builder.Services.AddScoped<IBidderRepository, BidderRepository>();
 			builder.Services.AddScoped<IBidderService, BidderService>();
@@ -31,22 +31,22 @@ namespace OlineAuctionMarketing
 			builder.Services.AddScoped<IAuctionRepository, AuctionRepository>();
 			builder.Services.AddScoped<IAuctionService, AuctionService>();
 			builder.Services.AddScoped<IBidsRepository, BidsRepository>();
-			builder.Services.AddScoped<IBidsService, BidsService >();
+			builder.Services.AddScoped<IBidsService, BidsService>();
 			builder.Services.AddScoped<ISendInBlueEmailService, SendInBlueEmailService>();
-            builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-            
+			builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
 			//builder.Services.AddHttpContextAccessor();
-            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-    .AddCookie(config =>
-    {
-        config.LoginPath = "/Home/Login";
-        config.LogoutPath = "/Home/Login";
-        config.Cookie.Name = "Auction";
-    });
-            builder.Services.AddAuthorization();
+			builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+	.AddCookie(config =>
+	{
+		config.LoginPath = "/Home/Login";
+		config.LogoutPath = "/Home/Login";
+		config.Cookie.Name = "Auction";
+	});
+			builder.Services.AddAuthorization();
 
 
-            var app = builder.Build();
+			var app = builder.Build();
 
 			// Configure the HTTP request pipeline.
 			if (!app.Environment.IsDevelopment())
@@ -65,8 +65,8 @@ namespace OlineAuctionMarketing
 
 			app.MapControllerRoute(
 				name: "default",
-				pattern: "{controller=Home}/{action=Index}/{id?}"); 
-			 app.Run();
+				pattern: "{controller=auction}/{action=DisplayAuctions}/{id?}");
+			app.Run();
 		}
 	}
 }
