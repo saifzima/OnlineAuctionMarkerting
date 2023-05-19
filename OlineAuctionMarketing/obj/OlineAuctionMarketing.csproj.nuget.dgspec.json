@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\OlineAuctionMarketing.csproj": {}
+    "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\OlineAuctionMarketing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\OlineAuctionMarketing.csproj": {
+    "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\OlineAuctionMarketing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\OlineAuctionMarketing.csproj",
+        "projectUniqueName": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\OlineAuctionMarketing.csproj",
         "projectName": "OlineAuctionMarketing",
-        "projectPath": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\OlineAuctionMarketing.csproj",
-        "packagesPath": "C:\\Users\\musta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\obj\\",
+        "projectPath": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\OlineAuctionMarketing.csproj",
+        "packagesPath": "C:\\Users\\Abdul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\musta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -78,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
