@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using OlineAuctionMarketing.Inplementation.Service;
 using OlineAuctionMarketing.Interface.IService;
 using OlineAuctionMarketing.Models.DTO.Product;
 using System.Security.Claims;
@@ -24,8 +23,16 @@ namespace OlineAuctionMarketing.Controllers
         public IActionResult DisplayAuctions()
         {
             var getAllCategory = _categoryService.GetAll();
-            ViewData["Categories"] = new SelectList(getAllCategory.Data,"Id","Name");
+            ViewData["Categories"] = new SelectList(getAllCategory.Data, "Id", "Name");
             var auction = _auctionService.GetAll();
+            return View(auction);
+        }
+        public IActionResult GetAuctionsByAuctioneerId(int id)
+        {
+            //var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
+            var getAllCategory = _categoryService.GetAll();
+            ViewData["Categories"] = new SelectList(getAllCategory.Data, "Id", "Name");
+            var auction = _auctionService.GetAuctionsByAuctioneerId(id);
             return View(auction);
         }
         public IActionResult Create()
@@ -62,7 +69,7 @@ namespace OlineAuctionMarketing.Controllers
             var get = _auctionService.GetById(id);
             return View(get);
         }
-        
+
         public IActionResult Edit(int id)
         {
             var get = _auctionService.GetById(id);
@@ -70,12 +77,12 @@ namespace OlineAuctionMarketing.Controllers
         }
 
         [HttpPost]
-        public IActionResult EditAuction(AuctionUpdateRequestModel productUpdateReqestModel,int id)
+        public IActionResult EditAuction(AuctionUpdateRequestModel productUpdateReqestModel, int id)
         {
             _auctionService.Update(productUpdateReqestModel, id);
             return RedirectToAction("Index");
         }
-       
+
         [HttpGet]
         public IActionResult Detail(int id)
         {
@@ -101,13 +108,13 @@ namespace OlineAuctionMarketing.Controllers
             TempData["Message"] = auctionRequest.Massage;
             return RedirectToAction("DisplayAuctions");
         }
-        
+
         public IActionResult GetAuctionByCategory(int categoryId)
         {
             var get = _auctionService.GetAuctionByCategory(categoryId);
             if (!get.Status)
             {
-                
+
             }
             return View(get);
         }

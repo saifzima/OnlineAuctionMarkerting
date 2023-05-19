@@ -5,6 +5,7 @@ using OlineAuctionMarketing.Models;
 using OlineAuctionMarketing.Models.DTO.Bidder;
 using OlineAuctionMarketing.Models.DTO.Product;
 using OlineAuctionMarketing.Models.Entities;
+using System.Security.Claims;
 
 namespace OlineAuctionMarketing.Inplementation.Service
 {
@@ -15,17 +16,21 @@ namespace OlineAuctionMarketing.Inplementation.Service
         private readonly IWebHostEnvironment _webpost;
         private readonly ICategoryRepository _categoryRepository;
         private readonly IBidsRepository _bidsRepository;
-        public AuctionService(IAuctionRepository ProductRepository, IWebHostEnvironment webpost, IAuctioneerRepository auctioneerRepository, ICategoryRepository categoryRepository, IBidsRepository bidsRepository)
+        private readonly IUserRepository _userRepository;
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        public AuctionService(IAuctionRepository ProductRepository, IWebHostEnvironment webpost, IAuctioneerRepository auctioneerRepository, ICategoryRepository categoryRepository, IBidsRepository bidsRepository, IUserRepository userRepository, IHttpContextAccessor httpContextAccessor)
         {
             _auctioneerRepository = auctioneerRepository;
             _productRepository = ProductRepository;
             _webpost = webpost;
             _categoryRepository = categoryRepository;
             _bidsRepository = bidsRepository;
+            _userRepository = userRepository;
+            _httpContextAccessor = httpContextAccessor;
         }
 
 
-        public AuctionResponseModel Create(CreateAuctionRequestModel createProductRequestModel,int userId)
+        public AuctionResponseModel Create(CreateAuctionRequestModel createProductRequestModel, int userId)
         {
             var auctioneer = _auctioneerRepository.Get(x => x.UsersId == userId);
             var ImageName = "";
@@ -41,7 +46,7 @@ namespace OlineAuctionMarketing.Inplementation.Service
                     {
                         Massage = "Fail to create product because file type is not image",
                         Status = false
-                    }; 
+                    };
                 }
                 ImageName = $"{Guid.NewGuid()}.{imagetype}";
                 var fullpath = Path.Combine(imagepath, ImageName);
@@ -109,6 +114,39 @@ namespace OlineAuctionMarketing.Inplementation.Service
             };
         }
 
+        public AuctionsResponseModel GetAuctionsByAuctioneerId(int auctioneerId)
+        {
+            auctioneerId = _userRepository.Get(x => x.Id == auctioneerId).Auctioneer.Id;
+            var getAll = _productRepository.GetAllAuctions(x => x.AuctioneerId == auctioneerId);
+            if (getAll == null)
+            {
+                return new AuctionsResponseModel
+                {
+                    Massage = "failed to fetch",
+                    Status = false,
+                };
+
+            }
+            var count = getAll.Count();
+            return new AuctionsResponseModel
+            {
+                NumberOfItems = count,
+                Massage = "successfully fetched",
+                Status = true,
+                Data = getAll.Select(x => new AuctionDTO
+                {
+                    Id = x.Id,
+                    ProductName = x.ProductName,
+                    Description = x.Description,
+                    IsActive = x.IsActive,
+                    StartingTime = x.StartingTime,
+                    EndingTime = x.EndingTime,
+                    StartingPrice = x.StartingPrice,
+                    Created = DateTime.Now,
+                    Image = x.Image,
+                }).ToList()
+            };
+        }
         public AuctionsResponseModel GetAll()
         {
             var getAll = _productRepository.GetAllAuctions(x => true);
@@ -133,11 +171,11 @@ namespace OlineAuctionMarketing.Inplementation.Service
                     Id = x.Id,
                     ProductName = x.ProductName,
                     Description = x.Description,
-                    IsActive= x.IsActive,
-                    StartingTime= x.StartingTime,
-                    EndingTime= x.EndingTime,
-                    StartingPrice= x.StartingPrice,
-                    Created= DateTime.Now,
+                    IsActive = x.IsActive,
+                    StartingTime = x.StartingTime,
+                    EndingTime = x.EndingTime,
+                    StartingPrice = x.StartingPrice,
+                    Created = DateTime.Now,
                     Image = x.Image,
                 }).ToList()
             };
@@ -176,7 +214,7 @@ namespace OlineAuctionMarketing.Inplementation.Service
                 }
             };
         }
-        
+
         public AuctionResponseModel GetById(int productId)
         {
             var getById = _productRepository.GetById(productId);
@@ -191,7 +229,7 @@ namespace OlineAuctionMarketing.Inplementation.Service
             var numberOfBids = _bidsRepository.GetAllAuctionBidders(x => x.AuctionId == productId).Count();
             return new AuctionResponseModel
             {
-                
+
                 Massage = "successfully fetched",
                 Status = true,
                 Data = new AuctionDTO
@@ -223,7 +261,7 @@ namespace OlineAuctionMarketing.Inplementation.Service
             }
             get.Id = productId;
             get.ProductName = productUpdateRequestModel.ProductName;
-            get.Description= productUpdateRequestModel.Description;
+            get.Description = productUpdateRequestModel.Description;
             get.StartingPrice = productUpdateRequestModel.StartingPrice;
             get.StartingTime = productUpdateRequestModel.StartingTime;
             get.EndingTime = productUpdateRequestModel.EndingTime;
@@ -257,8 +295,8 @@ namespace OlineAuctionMarketing.Inplementation.Service
             get.ProductName = auctionRequestModel.ProductName;
             get.Description = auctionRequestModel.Description;
             get.StartingPrice += auctionRequestModel.StartingPrice;
-            get.StartingTime= auctionRequestModel.StartingTime;
-            get.EndingTime= auctionRequestModel.EndingTime;
+            get.StartingTime = auctionRequestModel.StartingTime;
+            get.EndingTime = auctionRequestModel.EndingTime;
             _productRepository.Update(get);
             return new BaseResponse
             {
@@ -270,7 +308,7 @@ namespace OlineAuctionMarketing.Inplementation.Service
         public BiddersResponseModel GetAuctionBidder(int auctionId)
         {
             var getAll = _productRepository.GetAuctionBidder(auctionId).ToList();
-            if(getAll == null)
+            if (getAll == null)
             {
                 return new BiddersResponseModel
                 {
@@ -286,19 +324,19 @@ namespace OlineAuctionMarketing.Inplementation.Service
                 Data = getAll.Select(x => new BidderDTO
                 {
                     Id = x.Id,
-                    FirstName  = x.Bidder.Users.FirstName,
-                    LastName  = x.Bidder.Users.LastName,
+                    FirstName = x.Bidder.Users.FirstName,
+                    LastName = x.Bidder.Users.LastName,
 
                 }).ToList(),
             };
             return auctioBidder;
-            
+
         }
 
         public AuctionsResponseModel GetAuctionByCategory(int categoryId)
         {
             var get = _productRepository.GetAllAuctions(x => x.CategoryId == categoryId).ToList();
-            if(get== null)
+            if (get == null)
             {
                 return new AuctionsResponseModel
                 {
@@ -312,14 +350,14 @@ namespace OlineAuctionMarketing.Inplementation.Service
                 Status = true,
                 Data = get.Select(x => new AuctionDTO
                 {
-                   Id = x.Id,
+                    Id = x.Id,
                     ProductName = x.ProductName,
                     Description = x.Description,
-                    IsActive= x.IsActive,
-                    StartingTime= x.StartingTime,
-                    EndingTime= x.EndingTime,   
-                    StartingPrice= x.StartingPrice,
-                    Created= DateTime.Now,
+                    IsActive = x.IsActive,
+                    StartingTime = x.StartingTime,
+                    EndingTime = x.EndingTime,
+                    StartingPrice = x.StartingPrice,
+                    Created = DateTime.Now,
                     Image = x.Image,
                 }).ToList()
             };

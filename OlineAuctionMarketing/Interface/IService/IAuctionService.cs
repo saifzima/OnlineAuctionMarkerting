@@ -14,6 +14,7 @@ namespace OlineAuctionMarketing.Interface.IService
         AuctionResponseModel GetById(int auctionId);
         AuctionResponseModel GetAuctionBidById(int auctionId);
         AuctionsResponseModel GetAll();
+        AuctionsResponseModel GetAuctionsByAuctioneerId(int auctioneerId);
         BiddersResponseModel GetAuctionBidder(int auctionId);
         AuctionsResponseModel GetAuctionByCategory(int categoryId);
     }

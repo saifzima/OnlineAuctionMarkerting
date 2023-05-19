@@ -1,0 +1,117 @@
+﻿@using System.Security.Claims;
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Online Auctioning System - Start Bidding</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="~/css/cssAuct/assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="~/css/cssAuct/css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="d-flex" id="wrapper">
+        @{
+            var user = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        }
+        @if (User.FindFirst(ClaimTypes.NameIdentifier) != null)
+        {
+
+            <!-- Sidebar-->
+            <div class="border-end bg-white" id="sidebar-wrapper">
+                <div class="sidebar-heading border-bottom bg-light">Manage</div>
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" asp-controller="Auction"
+                   asp-action="Create">Add new auction</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" asp-controller="Auctioneer"
+                   asp-action="Details" asp-route-id="@user">My Profile</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" asp-controller="Auction"
+                   asp-action="GetAuctionsByAuctioneerId" asp-route-id="@user">My Auctions</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" asp-controller="Auction"
+                   asp-action="" asp-route-id="">Manage Auctions</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" asp-controller="User"
+                   asp-action="Update" asp-route-id="@user">Update Profile</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" asp-controller="User"
+                   asp-action="UpdatePassword" asp-route-id="@user">Change Password</a>
+                </div>
+            </div>
+        }
+
+        <!-- Page content wrapper-->
+        <div id="page-content-wrapper">
+            <!-- Top navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                <div class="container-fluid">
+                    <button class="btn btn-primary" id="sidebarToggle">Menu</button>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                            @{
+                                if (User.FindFirst(ClaimTypes.NameIdentifier) != null)
+                                {
+                                    <li class="nav-item active"><a class="nav-link" href="#!">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" asp-controller="User" asp-action="Logout">Logout</a></li>
+                                }
+                                if (User.FindFirst(ClaimTypes.NameIdentifier) == null)
+                                {
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-controller="User" asp-action="Login">Login</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-controller="Auctioneer" asp-action="Create">Auctioneer Sign-up </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-controller="Bidder" asp-action="Create">Bidder Sign-up </a>
+                                    </li>
+                                }
+                            }
+                            @if (User.FindFirst(ClaimTypes.NameIdentifier) != null)
+                            {
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
+                                   data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+                                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#!">Logout</a>
+                                        <a class="dropdown-item" href="#!">My Profile</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#!">Update Profile</a>
+                                    </div>
+                                </li>
+                            }
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+            <!-- Page content-->
+            <div class="container-fluid">
+
+                @RenderBody()
+
+
+            </div>
+            <!-- End Page content-->
+
+
+
+        </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="~/css/cssAuct/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="~/css/cssAuct/js/scripts.js"></script>
+</body>
+
+</html>

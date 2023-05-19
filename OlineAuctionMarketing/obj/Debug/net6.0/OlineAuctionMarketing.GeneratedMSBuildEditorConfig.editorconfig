@@ -9,189 +9,205 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OlineAuctionMarketing
 build_property.RootNamespace = OlineAuctionMarketing
-build_property.ProjectDir = C:\Users\musta\source\repos\OlineAuctionMarketing\OlineAuctionMarketing\
+build_property.ProjectDir = C:\Users\Abdul\source\repos\OnlineAuctionMarkerting\OlineAuctionMarketing\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\musta\source\repos\OlineAuctionMarketing\OlineAuctionMarketing
+build_property.MSBuildProjectDirectory = C:\Users\Abdul\source\repos\OnlineAuctionMarkerting\OlineAuctionMarketing
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Admin/DashBoard.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Admin/DashBoard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaEJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Auctioneer/Create.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Auctioneer/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvbmVlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Auctioneer/DashBoard.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Auctioneer/DashBoard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvbmVlclxEYXNoQm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Auctioneer/Delete.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Auctioneer/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvbmVlclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Auctioneer/DeleteAuctioneer.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Auctioneer/DeleteAuctioneer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvbmVlclxEZWxldGVBdWN0aW9uZWVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Auctioneer/Details.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Auctioneer/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvbmVlclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Auctioneer/Edit.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Auctioneer/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvbmVlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Auctioneer/GetAllAuctioneer.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Auctioneer/GetAllAuctioneer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvbmVlclxHZXRBbGxBdWN0aW9uZWVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Auctioneer/GetById.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Auctioneer/GetById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvbmVlclxHZXRCeUlkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Auctioneer/Index.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Auctioneer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvbmVlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Auction/Auction.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Auction/Auction.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxBdWN0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Auction/Create.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Auction/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Auction/Delete.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Auction/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Auction/DeleteAuction.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Auction/DeleteAuction.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxEZWxldGVBdWN0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Auction/Details.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Auction/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Auction/DisplayAuctions.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Auction/DisplayAuctions.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxEaXNwbGF5QXVjdGlvbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Auction/Edit.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Auction/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Auction/GetAuctionBidById.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Auction/GetAuctionBidById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxHZXRBdWN0aW9uQmlkQnlJZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Auction/GetAuctionByCategory.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Auction/GetAuctionByCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxHZXRBdWN0aW9uQnlDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Auction/Index.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Auction/GetAuctionsByAuctioneerId.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxHZXRBdWN0aW9uc0J5QXVjdGlvbmVlcklkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Auction/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Bidder/Create.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Bidder/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlkZGVyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Bidder/Delete.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Bidder/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlkZGVyXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Bidder/DeleteBidder.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Bidder/DeleteBidder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlkZGVyXERlbGV0ZUJpZGRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Bidder/Details.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Bidder/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlkZGVyXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Bidder/Edit.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Bidder/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlkZGVyXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Bidder/GetAllBidder.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Bidder/GetAllBidder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlkZGVyXEdldEFsbEJpZGRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Bidder/Index.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Bidder/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlkZGVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Bids/Create.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Bids/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlkc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Bids/GetAllAuctionBidders.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Bids/GetAllAuctionBidders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlkc1xHZXRBbGxBdWN0aW9uQmlkZGVycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Category/Create.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Category/Delete.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Category/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Category/DeleteCategory.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Category/DeleteCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Category/Details.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Category/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Category/Edit.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Category/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Category/Index.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Home/GetAuctionByCategory.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Home/GetAuctionByCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHZXRBdWN0aW9uQnlDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Home/Index.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Home/Privacy.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Shared/Error.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Shared/_LayoutAuctioneer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBdWN0aW9uZWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/User/Login.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/_ViewImports.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/User/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/User/UpdatePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGRhdGVQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/_ViewStart.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Shared/_Layout - Copy.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Shared/_Layout - Copy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQgLSBDb3B5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-erv4u1b8j5
 
-[C:/Users/musta/source/repos/OlineAuctionMarketing/OlineAuctionMarketing/Views/Shared/_Layout.cshtml]
+[C:/Users/Abdul/source/repos/OnlineAuctionMarkerting/OlineAuctionMarketing/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-vprn9er3bw
