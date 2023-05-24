@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZfW2iq+owEwazgXjtgxBCGPRlhj1p4I//uIJoSFnAVg=",
+  "Hash": "mRoH08PnNqYK4cxrVI35TN/i0Dz1ZC/iwZVOSgvvHHs=",
   "Source": "OlineAuctionMarketing",
   "BasePath": "_content/OlineAuctionMarketing",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "OlineAuctionMarketing\\wwwroot",
       "Source": "OlineAuctionMarketing",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\obj\\Debug\\net6.0\\scopedcss\\bundle\\OlineAuctionMarketing.styles.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\obj\\Debug\\net6.0\\scopedcss\\bundle\\OlineAuctionMarketing.styles.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "OlineAuctionMarketing.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\obj\\Debug\\net6.0\\scopedcss\\bundle\\OlineAuctionMarketing.styles.css"
+      "OriginalItemSpec": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\obj\\Debug\\net6.0\\scopedcss\\bundle\\OlineAuctionMarketing.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\OlineAuctionMarketing.bundle.scp.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\OlineAuctionMarketing.bundle.scp.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "OlineAuctionMarketing.bundle.scp.css",
       "AssetKind": "All",
@@ -48,64 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\OlineAuctionMarketing.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\OlineAuctionMarketing.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\allef-vinicius-fJTqyZMOh18-unsplash.jpg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\bg1.jpg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
-      "BasePath": "_content/OlineAuctionMarketing",
-      "RelativePath": "allef-vinicius-fJTqyZMOh18-unsplash.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\allef-vinicius-fJTqyZMOh18-unsplash.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\andrew-neel-cckf4TsHAuw-unsplash.jpg",
-      "SourceId": "OlineAuctionMarketing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
-      "BasePath": "_content/OlineAuctionMarketing",
-      "RelativePath": "andrew-neel-cckf4TsHAuw-unsplash.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\andrew-neel-cckf4TsHAuw-unsplash.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\austin-distel-EMPZ7yRZoGw-unsplash.jpg",
-      "SourceId": "OlineAuctionMarketing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
-      "BasePath": "_content/OlineAuctionMarketing",
-      "RelativePath": "austin-distel-EMPZ7yRZoGw-unsplash.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\austin-distel-EMPZ7yRZoGw-unsplash.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\bg1.jpg",
-      "SourceId": "OlineAuctionMarketing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "bg1.jpg",
       "AssetKind": "All",
@@ -119,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\bg1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\css\\.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "css/.css",
       "AssetKind": "All",
@@ -136,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\adminDashboard.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\css\\adminDashboard.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "css/adminDashboard.css",
       "AssetKind": "All",
@@ -153,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\adminDashboard.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\all.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\css\\all.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "css/all.css",
       "AssetKind": "All",
@@ -170,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\all.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\AuctioneerCss.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\css\\AuctioneerCss.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "css/AuctioneerCss.css",
       "AssetKind": "All",
@@ -187,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\AuctioneerCss.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\biddeCss.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\css\\biddeCss.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "css/biddeCss.css",
       "AssetKind": "All",
@@ -204,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\biddeCss.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\css\\bootstrap.bundle.min.js",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "css/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -221,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -238,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\cssAuct\\assets\\favicon.ico",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\css\\cssAuct\\assets\\favicon.ico",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "css/cssAuct/assets/favicon.ico",
       "AssetKind": "All",
@@ -255,146 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\cssAuct\\assets\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\cssAuct\\css\\aidan-bartos-v9rZ3Yz6fSg-unsplash.jpg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\css\\cssAuct\\css\\styles.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
-      "BasePath": "_content/OlineAuctionMarketing",
-      "RelativePath": "css/cssAuct/css/aidan-bartos-v9rZ3Yz6fSg-unsplash.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\cssAuct\\css\\aidan-bartos-v9rZ3Yz6fSg-unsplash.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\cssAuct\\css\\allef-vinicius-fJTqyZMOh18-unsplash.jpg",
-      "SourceId": "OlineAuctionMarketing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
-      "BasePath": "_content/OlineAuctionMarketing",
-      "RelativePath": "css/cssAuct/css/allef-vinicius-fJTqyZMOh18-unsplash.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\cssAuct\\css\\allef-vinicius-fJTqyZMOh18-unsplash.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\cssAuct\\css\\andrew-neel-cckf4TsHAuw-unsplash.jpg",
-      "SourceId": "OlineAuctionMarketing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
-      "BasePath": "_content/OlineAuctionMarketing",
-      "RelativePath": "css/cssAuct/css/andrew-neel-cckf4TsHAuw-unsplash.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\cssAuct\\css\\andrew-neel-cckf4TsHAuw-unsplash.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\cssAuct\\css\\austin-distel-EMPZ7yRZoGw-unsplash.jpg",
-      "SourceId": "OlineAuctionMarketing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
-      "BasePath": "_content/OlineAuctionMarketing",
-      "RelativePath": "css/cssAuct/css/austin-distel-EMPZ7yRZoGw-unsplash.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\cssAuct\\css\\austin-distel-EMPZ7yRZoGw-unsplash.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\cssAuct\\css\\dustyroze-Xc1LXlXiLUs-unsplash.jpg",
-      "SourceId": "OlineAuctionMarketing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
-      "BasePath": "_content/OlineAuctionMarketing",
-      "RelativePath": "css/cssAuct/css/dustyroze-Xc1LXlXiLUs-unsplash.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\cssAuct\\css\\dustyroze-Xc1LXlXiLUs-unsplash.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\cssAuct\\css\\frederick-warren-lOg_fQLHo7s-unsplash.jpg",
-      "SourceId": "OlineAuctionMarketing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
-      "BasePath": "_content/OlineAuctionMarketing",
-      "RelativePath": "css/cssAuct/css/frederick-warren-lOg_fQLHo7s-unsplash.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\cssAuct\\css\\frederick-warren-lOg_fQLHo7s-unsplash.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\cssAuct\\css\\roman-synkevych-FI4NKaiTePY-unsplash.jpg",
-      "SourceId": "OlineAuctionMarketing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
-      "BasePath": "_content/OlineAuctionMarketing",
-      "RelativePath": "css/cssAuct/css/roman-synkevych-FI4NKaiTePY-unsplash.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\cssAuct\\css\\roman-synkevych-FI4NKaiTePY-unsplash.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\cssAuct\\css\\scott-graham-5fNmWej4tAA-unsplash.jpg",
-      "SourceId": "OlineAuctionMarketing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
-      "BasePath": "_content/OlineAuctionMarketing",
-      "RelativePath": "css/cssAuct/css/scott-graham-5fNmWej4tAA-unsplash.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\cssAuct\\css\\scott-graham-5fNmWej4tAA-unsplash.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\cssAuct\\css\\styles.css",
-      "SourceId": "OlineAuctionMarketing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "css/cssAuct/css/styles.css",
       "AssetKind": "All",
@@ -408,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\cssAuct\\css\\styles.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\cssAuct\\index.html",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\css\\cssAuct\\index.html",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "css/cssAuct/index.html",
       "AssetKind": "All",
@@ -425,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\cssAuct\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\cssAuct\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\css\\cssAuct\\js\\bootstrap.bundle.min.js",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "css/cssAuct/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -442,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\cssAuct\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\cssAuct\\js\\scripts.js",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\css\\cssAuct\\js\\scripts.js",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "css/cssAuct/js/scripts.js",
       "AssetKind": "All",
@@ -459,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\cssAuct\\js\\scripts.js"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\Dashboard.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\css\\Dashboard.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "css/Dashboard.css",
       "AssetKind": "All",
@@ -476,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Dashboard.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\jquery.min.js",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\css\\jquery.min.js",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "css/jquery.min.js",
       "AssetKind": "All",
@@ -493,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\css\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\mdb.min.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\css\\mdb.min.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "css/mdb.min.css",
       "AssetKind": "All",
@@ -510,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\css\\mdb.min.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\css\\style.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -527,27 +340,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\dustyroze-Xc1LXlXiLUs-unsplash.jpg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\favicon.ico",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
-      "BasePath": "_content/OlineAuctionMarketing",
-      "RelativePath": "dustyroze-Xc1LXlXiLUs-unsplash.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\dustyroze-Xc1LXlXiLUs-unsplash.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\favicon.ico",
-      "SourceId": "OlineAuctionMarketing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -561,27 +357,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\frederick-warren-lOg_fQLHo7s-unsplash.jpg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\03e24150-f1d1-4c02-91a9-6751b49541ad.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
-      "BasePath": "_content/OlineAuctionMarketing",
-      "RelativePath": "frederick-warren-lOg_fQLHo7s-unsplash.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\frederick-warren-lOg_fQLHo7s-unsplash.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\03e24150-f1d1-4c02-91a9-6751b49541ad.png",
-      "SourceId": "OlineAuctionMarketing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/03e24150-f1d1-4c02-91a9-6751b49541ad.png",
       "AssetKind": "All",
@@ -595,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\03e24150-f1d1-4c02-91a9-6751b49541ad.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\062734b6-de31-4b7d-a16a-f2bca06764e6.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\062734b6-de31-4b7d-a16a-f2bca06764e6.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/062734b6-de31-4b7d-a16a-f2bca06764e6.jpeg",
       "AssetKind": "All",
@@ -612,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\062734b6-de31-4b7d-a16a-f2bca06764e6.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\0b72926d-9e33-4e94-8c27-323c2c61ed09.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\0b72926d-9e33-4e94-8c27-323c2c61ed09.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/0b72926d-9e33-4e94-8c27-323c2c61ed09.jpeg",
       "AssetKind": "All",
@@ -629,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\0b72926d-9e33-4e94-8c27-323c2c61ed09.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\0bfcf041-c014-4f60-8367-abb11e0aaa32.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\0bfcf041-c014-4f60-8367-abb11e0aaa32.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/0bfcf041-c014-4f60-8367-abb11e0aaa32.png",
       "AssetKind": "All",
@@ -646,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\0bfcf041-c014-4f60-8367-abb11e0aaa32.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\0d140f61-2d0d-41d1-9ca5-a8923a532749.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\0d140f61-2d0d-41d1-9ca5-a8923a532749.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/0d140f61-2d0d-41d1-9ca5-a8923a532749.jpeg",
       "AssetKind": "All",
@@ -663,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\0d140f61-2d0d-41d1-9ca5-a8923a532749.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\0d6aca27-5999-4657-bd1c-53932eb718e1.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\0d6aca27-5999-4657-bd1c-53932eb718e1.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/0d6aca27-5999-4657-bd1c-53932eb718e1.jpeg",
       "AssetKind": "All",
@@ -680,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\0d6aca27-5999-4657-bd1c-53932eb718e1.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\0fe20f9b-0563-421f-bd23-bf3d54630c8f.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\0fe20f9b-0563-421f-bd23-bf3d54630c8f.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/0fe20f9b-0563-421f-bd23-bf3d54630c8f.jpeg",
       "AssetKind": "All",
@@ -697,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\0fe20f9b-0563-421f-bd23-bf3d54630c8f.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\13a8d591-92c3-4a9a-8dcf-66deb7fd245f.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\13a8d591-92c3-4a9a-8dcf-66deb7fd245f.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/13a8d591-92c3-4a9a-8dcf-66deb7fd245f.png",
       "AssetKind": "All",
@@ -714,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\13a8d591-92c3-4a9a-8dcf-66deb7fd245f.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\16792517-dff8-4950-b3ea-39ef11e94970.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\16792517-dff8-4950-b3ea-39ef11e94970.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/16792517-dff8-4950-b3ea-39ef11e94970.jpeg",
       "AssetKind": "All",
@@ -731,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\16792517-dff8-4950-b3ea-39ef11e94970.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\19a01ae8-c8ec-483b-97a3-775de7b07b33.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\19a01ae8-c8ec-483b-97a3-775de7b07b33.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/19a01ae8-c8ec-483b-97a3-775de7b07b33.jpeg",
       "AssetKind": "All",
@@ -748,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\19a01ae8-c8ec-483b-97a3-775de7b07b33.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\1c500c50-5288-47c9-83b8-f1f1e1788e7d.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\1c500c50-5288-47c9-83b8-f1f1e1788e7d.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/1c500c50-5288-47c9-83b8-f1f1e1788e7d.png",
       "AssetKind": "All",
@@ -765,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\1c500c50-5288-47c9-83b8-f1f1e1788e7d.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\1d705080-e32a-461c-bebf-f23b3a78bd1d.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\1d705080-e32a-461c-bebf-f23b3a78bd1d.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/1d705080-e32a-461c-bebf-f23b3a78bd1d.png",
       "AssetKind": "All",
@@ -782,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\1d705080-e32a-461c-bebf-f23b3a78bd1d.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\2492d432-872a-4855-80b4-a9b561fd5ded.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\2492d432-872a-4855-80b4-a9b561fd5ded.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/2492d432-872a-4855-80b4-a9b561fd5ded.jpeg",
       "AssetKind": "All",
@@ -799,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\2492d432-872a-4855-80b4-a9b561fd5ded.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\295ad0ff-b072-40ae-8b9d-65d57da249d3.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\295ad0ff-b072-40ae-8b9d-65d57da249d3.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/295ad0ff-b072-40ae-8b9d-65d57da249d3.jpeg",
       "AssetKind": "All",
@@ -816,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\295ad0ff-b072-40ae-8b9d-65d57da249d3.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\2c2d9bb5-e3f5-49ba-b933-962eeb401161.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\2c2d9bb5-e3f5-49ba-b933-962eeb401161.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/2c2d9bb5-e3f5-49ba-b933-962eeb401161.png",
       "AssetKind": "All",
@@ -833,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\2c2d9bb5-e3f5-49ba-b933-962eeb401161.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\2e693623-0aa1-493c-842a-20231aa90c83.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\2e693623-0aa1-493c-842a-20231aa90c83.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/2e693623-0aa1-493c-842a-20231aa90c83.png",
       "AssetKind": "All",
@@ -850,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\2e693623-0aa1-493c-842a-20231aa90c83.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\36b4c2cc-451a-405e-8868-ef288826ee19.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\36b4c2cc-451a-405e-8868-ef288826ee19.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/36b4c2cc-451a-405e-8868-ef288826ee19.jpeg",
       "AssetKind": "All",
@@ -867,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\36b4c2cc-451a-405e-8868-ef288826ee19.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\377bb7f6-49fc-423e-a156-b164cf4834fe.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\377bb7f6-49fc-423e-a156-b164cf4834fe.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/377bb7f6-49fc-423e-a156-b164cf4834fe.jpeg",
       "AssetKind": "All",
@@ -884,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\377bb7f6-49fc-423e-a156-b164cf4834fe.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\39c93477-4037-4c02-8530-fc9d16851cae.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\39c93477-4037-4c02-8530-fc9d16851cae.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/39c93477-4037-4c02-8530-fc9d16851cae.png",
       "AssetKind": "All",
@@ -901,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\39c93477-4037-4c02-8530-fc9d16851cae.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\424394ac-ca61-48de-aef8-ebd6c504dffe.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\424394ac-ca61-48de-aef8-ebd6c504dffe.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/424394ac-ca61-48de-aef8-ebd6c504dffe.jpeg",
       "AssetKind": "All",
@@ -918,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\424394ac-ca61-48de-aef8-ebd6c504dffe.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\45f64be9-7eb2-4afe-be3c-768fdb6e3a35.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\45f64be9-7eb2-4afe-be3c-768fdb6e3a35.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/45f64be9-7eb2-4afe-be3c-768fdb6e3a35.png",
       "AssetKind": "All",
@@ -935,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\45f64be9-7eb2-4afe-be3c-768fdb6e3a35.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\49dcdc8c-673b-4abb-ba47-af687ca604c3.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\49dcdc8c-673b-4abb-ba47-af687ca604c3.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/49dcdc8c-673b-4abb-ba47-af687ca604c3.jpeg",
       "AssetKind": "All",
@@ -952,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\49dcdc8c-673b-4abb-ba47-af687ca604c3.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\5048151b-43cc-40f3-9991-6b6802ace662.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\5048151b-43cc-40f3-9991-6b6802ace662.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/5048151b-43cc-40f3-9991-6b6802ace662.png",
       "AssetKind": "All",
@@ -969,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\5048151b-43cc-40f3-9991-6b6802ace662.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\52272587-84c4-4610-a83e-3d4a2370bb8a.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\52272587-84c4-4610-a83e-3d4a2370bb8a.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/52272587-84c4-4610-a83e-3d4a2370bb8a.jpeg",
       "AssetKind": "All",
@@ -986,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\52272587-84c4-4610-a83e-3d4a2370bb8a.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\57a46615-1a49-48ce-ac14-0faa7a0c9f8a.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\57a46615-1a49-48ce-ac14-0faa7a0c9f8a.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/57a46615-1a49-48ce-ac14-0faa7a0c9f8a.jpeg",
       "AssetKind": "All",
@@ -1003,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\57a46615-1a49-48ce-ac14-0faa7a0c9f8a.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\5d18af60-de31-4038-afc5-8026b8a6c3ec.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\5d18af60-de31-4038-afc5-8026b8a6c3ec.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/5d18af60-de31-4038-afc5-8026b8a6c3ec.png",
       "AssetKind": "All",
@@ -1020,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\5d18af60-de31-4038-afc5-8026b8a6c3ec.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\606ec777-53cc-42d6-8fed-5ec1c16bb230.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\606ec777-53cc-42d6-8fed-5ec1c16bb230.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/606ec777-53cc-42d6-8fed-5ec1c16bb230.jpeg",
       "AssetKind": "All",
@@ -1037,10 +816,27 @@
       "OriginalItemSpec": "wwwroot\\Images\\606ec777-53cc-42d6-8fed-5ec1c16bb230.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\66311947-01cb-4a28-8c12-c0c72f1d8b19.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\63765619-3a6e-4597-9336-7dfae95db051.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
+      "BasePath": "_content/OlineAuctionMarketing",
+      "RelativePath": "Images/63765619-3a6e-4597-9336-7dfae95db051.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\63765619-3a6e-4597-9336-7dfae95db051.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\66311947-01cb-4a28-8c12-c0c72f1d8b19.jpeg",
+      "SourceId": "OlineAuctionMarketing",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/66311947-01cb-4a28-8c12-c0c72f1d8b19.jpeg",
       "AssetKind": "All",
@@ -1054,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\66311947-01cb-4a28-8c12-c0c72f1d8b19.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\66e882c0-3c8d-4ab0-9660-b947080836b5.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\66e882c0-3c8d-4ab0-9660-b947080836b5.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/66e882c0-3c8d-4ab0-9660-b947080836b5.png",
       "AssetKind": "All",
@@ -1071,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\66e882c0-3c8d-4ab0-9660-b947080836b5.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\675af570-83ee-4716-9415-1f6bb1d472b4.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\675af570-83ee-4716-9415-1f6bb1d472b4.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/675af570-83ee-4716-9415-1f6bb1d472b4.jpeg",
       "AssetKind": "All",
@@ -1088,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\675af570-83ee-4716-9415-1f6bb1d472b4.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\6a5a9087-d811-4ef7-b58f-09ed938fbfe5.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\6a5a9087-d811-4ef7-b58f-09ed938fbfe5.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/6a5a9087-d811-4ef7-b58f-09ed938fbfe5.png",
       "AssetKind": "All",
@@ -1105,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\6a5a9087-d811-4ef7-b58f-09ed938fbfe5.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\6b19fa17-fbc4-45b8-9345-3817b240ca06.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\6b19fa17-fbc4-45b8-9345-3817b240ca06.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/6b19fa17-fbc4-45b8-9345-3817b240ca06.png",
       "AssetKind": "All",
@@ -1122,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\6b19fa17-fbc4-45b8-9345-3817b240ca06.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\72bc28be-4b3e-4c21-9032-0eb6b3f9dd94.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\72bc28be-4b3e-4c21-9032-0eb6b3f9dd94.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/72bc28be-4b3e-4c21-9032-0eb6b3f9dd94.png",
       "AssetKind": "All",
@@ -1139,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\72bc28be-4b3e-4c21-9032-0eb6b3f9dd94.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\73aa875c-0c6d-495a-989c-31789dab1e97.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\73aa875c-0c6d-495a-989c-31789dab1e97.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/73aa875c-0c6d-495a-989c-31789dab1e97.png",
       "AssetKind": "All",
@@ -1156,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\73aa875c-0c6d-495a-989c-31789dab1e97.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\73fb5d73-bf41-45a9-858a-054566fb5cb1.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\73fb5d73-bf41-45a9-858a-054566fb5cb1.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/73fb5d73-bf41-45a9-858a-054566fb5cb1.jpeg",
       "AssetKind": "All",
@@ -1173,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\73fb5d73-bf41-45a9-858a-054566fb5cb1.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\76ddca77-920f-446c-b76c-e59e26c657fa.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\76ddca77-920f-446c-b76c-e59e26c657fa.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/76ddca77-920f-446c-b76c-e59e26c657fa.png",
       "AssetKind": "All",
@@ -1190,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\76ddca77-920f-446c-b76c-e59e26c657fa.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\77bf5478-2dfe-4e39-8fe9-f3b0529f1889.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\77bf5478-2dfe-4e39-8fe9-f3b0529f1889.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/77bf5478-2dfe-4e39-8fe9-f3b0529f1889.jpeg",
       "AssetKind": "All",
@@ -1207,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\77bf5478-2dfe-4e39-8fe9-f3b0529f1889.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\7c9dbac9-85a8-49b1-976b-3804fcf51066.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\7c9dbac9-85a8-49b1-976b-3804fcf51066.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/7c9dbac9-85a8-49b1-976b-3804fcf51066.jpeg",
       "AssetKind": "All",
@@ -1224,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\7c9dbac9-85a8-49b1-976b-3804fcf51066.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\8088f6c3-a76f-412b-973a-87c17a2d138d.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\8088f6c3-a76f-412b-973a-87c17a2d138d.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/8088f6c3-a76f-412b-973a-87c17a2d138d.png",
       "AssetKind": "All",
@@ -1241,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\8088f6c3-a76f-412b-973a-87c17a2d138d.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\8d6b4088-8022-4f23-bbc8-5f2c0a62bb82.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\8d6b4088-8022-4f23-bbc8-5f2c0a62bb82.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/8d6b4088-8022-4f23-bbc8-5f2c0a62bb82.jpeg",
       "AssetKind": "All",
@@ -1258,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\8d6b4088-8022-4f23-bbc8-5f2c0a62bb82.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\8ea67b3a-a0df-4595-bc29-87e28a8ea64a.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\8ea67b3a-a0df-4595-bc29-87e28a8ea64a.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/8ea67b3a-a0df-4595-bc29-87e28a8ea64a.jpeg",
       "AssetKind": "All",
@@ -1275,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\8ea67b3a-a0df-4595-bc29-87e28a8ea64a.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\90342643-aa7d-4bd2-a8de-50fd17c81f6b.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\90342643-aa7d-4bd2-a8de-50fd17c81f6b.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/90342643-aa7d-4bd2-a8de-50fd17c81f6b.jpeg",
       "AssetKind": "All",
@@ -1292,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\90342643-aa7d-4bd2-a8de-50fd17c81f6b.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\90860068-df22-4deb-a192-1a97db6d3881.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\90860068-df22-4deb-a192-1a97db6d3881.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/90860068-df22-4deb-a192-1a97db6d3881.jpeg",
       "AssetKind": "All",
@@ -1309,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\90860068-df22-4deb-a192-1a97db6d3881.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\936b1a4c-2f96-4a81-8e9a-4bb8e8432a44.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\936b1a4c-2f96-4a81-8e9a-4bb8e8432a44.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/936b1a4c-2f96-4a81-8e9a-4bb8e8432a44.jpeg",
       "AssetKind": "All",
@@ -1326,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\936b1a4c-2f96-4a81-8e9a-4bb8e8432a44.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\93a4fa4a-9fd0-4e4c-b261-fca5698590ed.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\93a4fa4a-9fd0-4e4c-b261-fca5698590ed.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/93a4fa4a-9fd0-4e4c-b261-fca5698590ed.jpeg",
       "AssetKind": "All",
@@ -1343,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\93a4fa4a-9fd0-4e4c-b261-fca5698590ed.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\964444f4-bbc6-4a47-8c87-1849710c1296.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\964444f4-bbc6-4a47-8c87-1849710c1296.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/964444f4-bbc6-4a47-8c87-1849710c1296.jpeg",
       "AssetKind": "All",
@@ -1360,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\964444f4-bbc6-4a47-8c87-1849710c1296.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\97879bec-3b99-496a-a495-69db65866d75.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\97879bec-3b99-496a-a495-69db65866d75.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/97879bec-3b99-496a-a495-69db65866d75.jpeg",
       "AssetKind": "All",
@@ -1377,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\97879bec-3b99-496a-a495-69db65866d75.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\a0c18d64-786d-48f2-9863-4155eda9d5e4.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\a0c18d64-786d-48f2-9863-4155eda9d5e4.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/a0c18d64-786d-48f2-9863-4155eda9d5e4.jpeg",
       "AssetKind": "All",
@@ -1394,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\a0c18d64-786d-48f2-9863-4155eda9d5e4.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\a2d4dabc-487a-4682-bbde-b762f965f273.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\a2d4dabc-487a-4682-bbde-b762f965f273.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/a2d4dabc-487a-4682-bbde-b762f965f273.png",
       "AssetKind": "All",
@@ -1411,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\a2d4dabc-487a-4682-bbde-b762f965f273.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\a31f4f99-644e-4a79-a6b1-c326299070d6.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\a31f4f99-644e-4a79-a6b1-c326299070d6.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/a31f4f99-644e-4a79-a6b1-c326299070d6.jpeg",
       "AssetKind": "All",
@@ -1428,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\a31f4f99-644e-4a79-a6b1-c326299070d6.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\a71c1e59-9ce9-4bc5-98db-44ef4a32e827.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\a71c1e59-9ce9-4bc5-98db-44ef4a32e827.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/a71c1e59-9ce9-4bc5-98db-44ef4a32e827.jpeg",
       "AssetKind": "All",
@@ -1445,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\a71c1e59-9ce9-4bc5-98db-44ef4a32e827.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\a8ab4d99-03af-47a2-8e0e-abd05f1df512.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\a8ab4d99-03af-47a2-8e0e-abd05f1df512.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/a8ab4d99-03af-47a2-8e0e-abd05f1df512.png",
       "AssetKind": "All",
@@ -1462,10 +1258,27 @@
       "OriginalItemSpec": "wwwroot\\Images\\a8ab4d99-03af-47a2-8e0e-abd05f1df512.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\a9a9836f-cd1f-48b7-910d-8c1957b8e108.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\a8b8596b-8ce1-4d6b-81aa-92a1d2a6d058.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
+      "BasePath": "_content/OlineAuctionMarketing",
+      "RelativePath": "Images/a8b8596b-8ce1-4d6b-81aa-92a1d2a6d058.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\a8b8596b-8ce1-4d6b-81aa-92a1d2a6d058.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\a9a9836f-cd1f-48b7-910d-8c1957b8e108.png",
+      "SourceId": "OlineAuctionMarketing",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/a9a9836f-cd1f-48b7-910d-8c1957b8e108.png",
       "AssetKind": "All",
@@ -1479,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\a9a9836f-cd1f-48b7-910d-8c1957b8e108.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\aaf70745-a3fd-41f0-b39a-5c909ebdc700.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\aaf70745-a3fd-41f0-b39a-5c909ebdc700.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/aaf70745-a3fd-41f0-b39a-5c909ebdc700.png",
       "AssetKind": "All",
@@ -1496,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\aaf70745-a3fd-41f0-b39a-5c909ebdc700.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\ab400876-e6de-46a7-9a52-451d2e6e849f.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\ab400876-e6de-46a7-9a52-451d2e6e849f.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/ab400876-e6de-46a7-9a52-451d2e6e849f.png",
       "AssetKind": "All",
@@ -1513,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ab400876-e6de-46a7-9a52-451d2e6e849f.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\ab4e78b6-7d8b-4e5d-9f9c-9933f8289ac1.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\ab4e78b6-7d8b-4e5d-9f9c-9933f8289ac1.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/ab4e78b6-7d8b-4e5d-9f9c-9933f8289ac1.jpeg",
       "AssetKind": "All",
@@ -1530,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ab4e78b6-7d8b-4e5d-9f9c-9933f8289ac1.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\ab87cb22-9fcf-4219-a665-8e7efef4ce3f.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\ab87cb22-9fcf-4219-a665-8e7efef4ce3f.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/ab87cb22-9fcf-4219-a665-8e7efef4ce3f.jpeg",
       "AssetKind": "All",
@@ -1547,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ab87cb22-9fcf-4219-a665-8e7efef4ce3f.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\abee7b7d-41aa-4cb0-854b-d02304f10136.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\abee7b7d-41aa-4cb0-854b-d02304f10136.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/abee7b7d-41aa-4cb0-854b-d02304f10136.jpeg",
       "AssetKind": "All",
@@ -1564,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\abee7b7d-41aa-4cb0-854b-d02304f10136.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\ac7eae61-8f66-4487-97b7-3be8cdbf5e9a.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\ac7eae61-8f66-4487-97b7-3be8cdbf5e9a.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/ac7eae61-8f66-4487-97b7-3be8cdbf5e9a.png",
       "AssetKind": "All",
@@ -1581,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ac7eae61-8f66-4487-97b7-3be8cdbf5e9a.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\aedffea5-dee0-4b23-b350-0fe86d0584aa.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\aedffea5-dee0-4b23-b350-0fe86d0584aa.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/aedffea5-dee0-4b23-b350-0fe86d0584aa.png",
       "AssetKind": "All",
@@ -1598,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\aedffea5-dee0-4b23-b350-0fe86d0584aa.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\Auction-logo.jpg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\Auction-logo.jpg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/Auction-logo.jpg",
       "AssetKind": "All",
@@ -1615,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Auction-logo.jpg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\b2730f7a-aad3-4101-8969-4883196e8fea.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\b2730f7a-aad3-4101-8969-4883196e8fea.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/b2730f7a-aad3-4101-8969-4883196e8fea.jpeg",
       "AssetKind": "All",
@@ -1632,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\b2730f7a-aad3-4101-8969-4883196e8fea.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\b3395066-4099-4ecb-8d51-33a5e41331f4.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\b3395066-4099-4ecb-8d51-33a5e41331f4.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/b3395066-4099-4ecb-8d51-33a5e41331f4.jpeg",
       "AssetKind": "All",
@@ -1649,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\b3395066-4099-4ecb-8d51-33a5e41331f4.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\b3626aee-76e2-4249-84d8-b0e55bfaa7bc.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\b3626aee-76e2-4249-84d8-b0e55bfaa7bc.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/b3626aee-76e2-4249-84d8-b0e55bfaa7bc.png",
       "AssetKind": "All",
@@ -1666,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\b3626aee-76e2-4249-84d8-b0e55bfaa7bc.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\b5cd61de-084a-4fe1-bf7f-49c6d2f7ce63.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\b5cd61de-084a-4fe1-bf7f-49c6d2f7ce63.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/b5cd61de-084a-4fe1-bf7f-49c6d2f7ce63.jpeg",
       "AssetKind": "All",
@@ -1683,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\b5cd61de-084a-4fe1-bf7f-49c6d2f7ce63.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\b7ad1888-3135-423f-941e-9fbb096b4c4f.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\b7ad1888-3135-423f-941e-9fbb096b4c4f.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/b7ad1888-3135-423f-941e-9fbb096b4c4f.png",
       "AssetKind": "All",
@@ -1700,10 +1513,27 @@
       "OriginalItemSpec": "wwwroot\\Images\\b7ad1888-3135-423f-941e-9fbb096b4c4f.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\bd79f931-97b7-479f-a477-d32e9bf4656f.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\b8c28194-7844-4757-abec-74e36c0e6857.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
+      "BasePath": "_content/OlineAuctionMarketing",
+      "RelativePath": "Images/b8c28194-7844-4757-abec-74e36c0e6857.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\b8c28194-7844-4757-abec-74e36c0e6857.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\bd79f931-97b7-479f-a477-d32e9bf4656f.png",
+      "SourceId": "OlineAuctionMarketing",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/bd79f931-97b7-479f-a477-d32e9bf4656f.png",
       "AssetKind": "All",
@@ -1717,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\bd79f931-97b7-479f-a477-d32e9bf4656f.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\bfafe1f2-6fe0-4aef-9da5-acec1a7982e7.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\bfafe1f2-6fe0-4aef-9da5-acec1a7982e7.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/bfafe1f2-6fe0-4aef-9da5-acec1a7982e7.png",
       "AssetKind": "All",
@@ -1734,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\bfafe1f2-6fe0-4aef-9da5-acec1a7982e7.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\bfc1d32f-5955-49fe-b514-1b4c729790a4.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\bfc1d32f-5955-49fe-b514-1b4c729790a4.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/bfc1d32f-5955-49fe-b514-1b4c729790a4.png",
       "AssetKind": "All",
@@ -1751,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\bfc1d32f-5955-49fe-b514-1b4c729790a4.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\bfcfb437-5c00-490a-99f1-3ee0fe1f377e.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\bfcfb437-5c00-490a-99f1-3ee0fe1f377e.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/bfcfb437-5c00-490a-99f1-3ee0fe1f377e.png",
       "AssetKind": "All",
@@ -1768,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\bfcfb437-5c00-490a-99f1-3ee0fe1f377e.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\bfe767bd-b842-4724-8c27-e4e96ca7ae48.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\bfe767bd-b842-4724-8c27-e4e96ca7ae48.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/bfe767bd-b842-4724-8c27-e4e96ca7ae48.png",
       "AssetKind": "All",
@@ -1785,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\bfe767bd-b842-4724-8c27-e4e96ca7ae48.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\c6387e70-15ef-4ea9-a4ae-cbfd651dcc91.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\c6387e70-15ef-4ea9-a4ae-cbfd651dcc91.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/c6387e70-15ef-4ea9-a4ae-cbfd651dcc91.png",
       "AssetKind": "All",
@@ -1802,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\c6387e70-15ef-4ea9-a4ae-cbfd651dcc91.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\c7505d6f-3b69-40e3-8871-6c58d06db64c.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\c7505d6f-3b69-40e3-8871-6c58d06db64c.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/c7505d6f-3b69-40e3-8871-6c58d06db64c.png",
       "AssetKind": "All",
@@ -1819,10 +1649,27 @@
       "OriginalItemSpec": "wwwroot\\Images\\c7505d6f-3b69-40e3-8871-6c58d06db64c.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\d28d09e4-6cd9-465a-a926-c7b454e03ad1.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\cd4c63d9-fd3e-4ecc-9735-eed361c5ebee.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
+      "BasePath": "_content/OlineAuctionMarketing",
+      "RelativePath": "Images/cd4c63d9-fd3e-4ecc-9735-eed361c5ebee.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\cd4c63d9-fd3e-4ecc-9735-eed361c5ebee.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\d28d09e4-6cd9-465a-a926-c7b454e03ad1.png",
+      "SourceId": "OlineAuctionMarketing",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/d28d09e4-6cd9-465a-a926-c7b454e03ad1.png",
       "AssetKind": "All",
@@ -1836,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\d28d09e4-6cd9-465a-a926-c7b454e03ad1.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\d8acb42e-4bfa-487c-a7af-1f076baa1269.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\d8acb42e-4bfa-487c-a7af-1f076baa1269.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/d8acb42e-4bfa-487c-a7af-1f076baa1269.jpeg",
       "AssetKind": "All",
@@ -1853,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\d8acb42e-4bfa-487c-a7af-1f076baa1269.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\dae8e73e-80cf-473e-8562-6e8e61046687.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\dae8e73e-80cf-473e-8562-6e8e61046687.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/dae8e73e-80cf-473e-8562-6e8e61046687.jpeg",
       "AssetKind": "All",
@@ -1870,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\dae8e73e-80cf-473e-8562-6e8e61046687.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\db4fbc13-b5b2-480e-a508-3832938a57f6.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\db4fbc13-b5b2-480e-a508-3832938a57f6.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/db4fbc13-b5b2-480e-a508-3832938a57f6.png",
       "AssetKind": "All",
@@ -1887,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\db4fbc13-b5b2-480e-a508-3832938a57f6.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\dd4ddb55-4748-4778-a968-11dfe6c3c537.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\dd4ddb55-4748-4778-a968-11dfe6c3c537.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/dd4ddb55-4748-4778-a968-11dfe6c3c537.jpeg",
       "AssetKind": "All",
@@ -1904,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\dd4ddb55-4748-4778-a968-11dfe6c3c537.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\e3420c8b-bf40-491b-9fae-de88c153452f.png",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\e3420c8b-bf40-491b-9fae-de88c153452f.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/e3420c8b-bf40-491b-9fae-de88c153452f.png",
       "AssetKind": "All",
@@ -1921,10 +1768,27 @@
       "OriginalItemSpec": "wwwroot\\Images\\e3420c8b-bf40-491b-9fae-de88c153452f.png"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\e578e9cb-ff58-47bd-8ba4-95111f11d7b2.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\e44f99dd-15fd-4590-95a9-52f429de663a.png",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
+      "BasePath": "_content/OlineAuctionMarketing",
+      "RelativePath": "Images/e44f99dd-15fd-4590-95a9-52f429de663a.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\e44f99dd-15fd-4590-95a9-52f429de663a.png"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\e578e9cb-ff58-47bd-8ba4-95111f11d7b2.jpeg",
+      "SourceId": "OlineAuctionMarketing",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/e578e9cb-ff58-47bd-8ba4-95111f11d7b2.jpeg",
       "AssetKind": "All",
@@ -1938,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\e578e9cb-ff58-47bd-8ba4-95111f11d7b2.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\Images\\eb7d9e49-24c3-4b12-8883-d81311b5368a.jpeg",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\Images\\eb7d9e49-24c3-4b12-8883-d81311b5368a.jpeg",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "Images/eb7d9e49-24c3-4b12-8883-d81311b5368a.jpeg",
       "AssetKind": "All",
@@ -1955,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\eb7d9e49-24c3-4b12-8883-d81311b5368a.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\js\\site.js",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1972,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1989,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2006,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2023,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2040,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2057,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2074,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2091,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2108,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2125,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2142,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2159,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2176,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2193,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2210,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2227,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2244,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2261,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2278,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2295,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2312,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2329,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2346,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2363,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2380,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2397,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2414,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2431,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2448,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2465,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2482,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2499,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2516,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2533,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2550,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2567,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2584,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2601,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2618,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2635,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2652,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2669,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2686,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2703,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2720,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2737,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2754,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2771,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2788,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2805,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2822,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2839,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2856,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2873,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2890,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2907,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2924,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "OlineAuctionMarketing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\musta\\source\\repos\\OlineAuctionMarketing\\OlineAuctionMarketing\\wwwroot\\",
       "BasePath": "_content/OlineAuctionMarketing",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2939,40 +2803,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\roman-synkevych-FI4NKaiTePY-unsplash.jpg",
-      "SourceId": "OlineAuctionMarketing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
-      "BasePath": "_content/OlineAuctionMarketing",
-      "RelativePath": "roman-synkevych-FI4NKaiTePY-unsplash.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\roman-synkevych-FI4NKaiTePY-unsplash.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\scott-graham-5fNmWej4tAA-unsplash.jpg",
-      "SourceId": "OlineAuctionMarketing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abdul\\source\\repos\\OnlineAuctionMarkerting\\OlineAuctionMarketing\\wwwroot\\",
-      "BasePath": "_content/OlineAuctionMarketing",
-      "RelativePath": "scott-graham-5fNmWej4tAA-unsplash.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scott-graham-5fNmWej4tAA-unsplash.jpg"
     }
   ]
 }

@@ -36,7 +36,7 @@ namespace OlineAuctionMarketing.Inplementation.Repository
 
         public IList<Category> GetAllCategories(Expression<Func<Category, bool>> expression)
         {
-            /**/var getAllCategory = _context.Categories.Include(a => a.Auctions).Where(expression).ToList();
+           var getAllCategory = _context.Categories.Include(a => a.Auctions).Where(expression).ToList();
             return getAllCategory;
         }
 

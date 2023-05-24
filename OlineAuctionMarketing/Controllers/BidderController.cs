@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using OlineAuctionMarketing.Enums;
 using OlineAuctionMarketing.Inplementation.Service;
 using OlineAuctionMarketing.Interface.IService;
@@ -59,6 +60,7 @@ namespace OlineAuctionMarketing.Controllers
             var get = _bidderService.GetById(id);
             return View(get);
         }
+        [Authorize(Roles ="Admin")]
         public IActionResult GetAllBidder()
         {
             var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
@@ -69,5 +71,16 @@ namespace OlineAuctionMarketing.Controllers
             var list = _bidderService.GetAll();
             return View(list);
         }
+        [Authorize(Roles ="Bidder")]
+        public IActionResult GetById(int id)
+        {
+            var bidder = _bidderService.GetById(id);
+            return View(bidder);
+        }
+        public IActionResult DashBoard() 
+        {
+            return View();
+        }
+
     }
 }

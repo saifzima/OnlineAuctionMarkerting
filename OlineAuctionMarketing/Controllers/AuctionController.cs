@@ -42,6 +42,7 @@ namespace OlineAuctionMarketing.Controllers
                 return RedirectToAction("Login", "User");
             }
             var category = _categoryService.GetAll();
+            TempData["Message"] = category.Massage;
             ViewData["Categories"] = new SelectList(category.Data, "Id", "Name");
             return View();
 

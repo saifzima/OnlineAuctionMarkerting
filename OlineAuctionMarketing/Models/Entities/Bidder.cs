@@ -8,7 +8,7 @@
 		public string Address { get; set; }
 		public string City { get; set; }
 		public IList<AuctionBidder> AuctionBidder { get; set; } = new List<AuctionBidder>();
-        public IList<Bids> Bids { get; set; } = new List<Bids>();
+        public IList<Bids > Bids { get; set; } = new List<Bids>();
 
     }
 }

@@ -37,7 +37,8 @@ namespace OlineAuctionMarketing.Controllers
 
         public IActionResult DeleteAuctioneer(int id)
         {
-            _auctioneerService.Delete(id);
+           var delete = _auctioneerService.Delete(id);
+            TempData["Message"] = delete.Massage;
             return RedirectToAction("Index");
         }
         public IActionResult Delete(int id)
@@ -65,7 +66,7 @@ namespace OlineAuctionMarketing.Controllers
             return View(get);
         }
 
-        [Authorize(Roles = "Auctioneer")]//Example on replacing the userROLE WITH actioon filters
+        [Authorize(Roles = "Admin")]//Example on replacing the userROLE WITH actioon filters
         public IActionResult GetAllAuctioneer()
         {
             //var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
@@ -78,7 +79,6 @@ namespace OlineAuctionMarketing.Controllers
         }
 
         [Authorize(Roles = "Auctioneer")]//Example on replacing the userROLE WITH actioon filters
-        //[HttpGet("GetById/id")]
         public IActionResult GetById(int id)
         {
             //this can be archieve using action filters

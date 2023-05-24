@@ -6,6 +6,10 @@
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" rel="stylesheet" id="bootstrap-css">
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <div class="container-fluid px-1 py-5 mx-auto">
+     @if (TempData["Message"] != null)
+    {
+        <p>@TempData["Message"]</p>
+    }
     <div class="row d-flex justify-content-center">
         <div id="Data-form" class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
             <h3>Add new Auctioneer</h3>

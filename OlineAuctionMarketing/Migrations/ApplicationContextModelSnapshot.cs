@@ -286,13 +286,13 @@ namespace OlineAuctionMarketing.Migrations
                         new
                         {
                             Id = 1,
-                            Created = new DateTime(2023, 5, 18, 11, 47, 18, 856, DateTimeKind.Local).AddTicks(3313),
+                            Created = new DateTime(2023, 5, 19, 10, 0, 8, 134, DateTimeKind.Local).AddTicks(7129),
                             Email = "Ibah@gmail.com",
                             FirstName = "Aduni",
                             IsDeleted = false,
                             LastName = "Ibah",
-                            Modified = new DateTime(2023, 5, 18, 11, 47, 18, 856, DateTimeKind.Local).AddTicks(3330),
-                            Password = "$2b$10$rVqWBhJneyf3Bxx1dqxcnOVkXdV9Mm3OWfrLw7oD2HJTBugJe.lgi",
+                            Modified = new DateTime(2023, 5, 19, 10, 0, 8, 134, DateTimeKind.Local).AddTicks(7140),
+                            Password = "$2b$10$WzP4MDUnjgqUU5z44cGrTOVIbvgi5NYfYpFfyh/4u4oTqxgQ0kpSK",
                             ProfilePicture = "logo.jpg",
                             Role = 1,
                             UserName = "Admin",

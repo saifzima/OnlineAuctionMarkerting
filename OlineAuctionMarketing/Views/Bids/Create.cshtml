@@ -21,65 +21,6 @@
     {
         <p>@TempData["Message"]</p>
     }
-    <header>
-        <!-- Jumbotron -->
-        @* <div class="p-3 text-center bg-white border-bottom">
-        <div class="container">
-        <div class="row gy-3">*@
-        <!-- Left elements -->
-        @*<div class="col-lg-2 col-sm-4 col-4">
-        <a href="https://mdbootstrap.com/" target="_blank" class="float-start">
-        <img src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png" height="35" />
-        </a>
-        </div>*@
-        <!-- Left elements -->
-        <!-- Center elements -->
-        @* <div class="order-lg-last col-lg-5 col-sm-8 col-8">
-        <div class="d-flex float-end">
-        <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="me-1 border rounded py-1 px-3 nav-link d-flex align-items-center" target="_blank"> <i class="fas fa-user-alt m-1 me-md-2"></i><p class="d-none d-md-block mb-0">Sign in</p> </a>
-        <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="me-1 border rounded py-1 px-3 nav-link d-flex align-items-center" target="_blank"> <i class="fas fa-heart m-1 me-md-2"></i><p class="d-none d-md-block mb-0">Wishlist</p> </a>
-        <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="border rounded py-1 px-3 nav-link d-flex align-items-center" target="_blank"> <i class="fas fa-shopping-cart m-1 me-md-2"></i><p class="d-none d-md-block mb-0">My cart</p> </a>
-        </div>
-        </div>*@
-        <!-- Center elements -->
-        <!-- Right elements -->
-        @* <div class="col-lg-5 col-md-12 col-12">
-        <div class="input-group float-center">
-        <div class="form-outline">
-        <input type="search" id="form1" class="form-control" />
-        <label class="form-label" for="form1">Search</label>
-        </div>
-        <button type="button" class="btn btn-primary shadow-0">
-        <i class="fas fa-search"></i>
-        </button>
-        </div>
-        </div>*@
-        <!-- Right elements -->
-        </div>
-        </div>
-        </div>
-        <!-- Jumbotron -->
-        <!-- Heading -->
-        @*<div class="bg-primary">
-        <div class="container py-4">
-        <!-- Breadcrumb -->
-        <nav class="d-flex">
-        <h6 class="mb-0">
-        <a href="" class="text-white-50">Home</a>
-        <span class="text-white-50 mx-2"> > </span>
-        <a href="" class="text-white-50">Library</a>
-        <span class="text-white-50 mx-2"> > </span>
-        <a href="" class="text-white"><u>Data</u></a>
-        </h6>
-        </nav>*@
-        <!-- Breadcrumb -->
-        @*</div>
-        </div>*@
-        <!-- Heading -->
-    </header>
-
-    <!-- content -->
-
     <section class="py-5">
         <div class="container">
             <div class="row gx-5">
@@ -115,18 +56,8 @@
                             @Model.Data.ProductName <br />
                         </h4>
                         <div class="d-flex flex-row my-3">
-                           @* <div class="text-warning mb-1 me-2">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                                <span class="ms-1">
-                                    4.5
-                                </span>*@
                             </div>
-                            @*<span class="text-muted"><i class="fas fa-shopping-basket fa-sm mx-1"></i>154 orders</span>
-                            <span class="text-success ms-2">In stock</span>*@
+                            
                         </div>
 
                         <div class="mb-3">
@@ -136,6 +67,8 @@
                         <p>
                             @Model.Data.Description
                         </p>
+                    <h1>Countdown Timer</h1>
+                    <div id="countdown"></div>
 
                         <div class="row">
                             <dt class="col-3">Numbers of bidder</dt>
@@ -153,16 +86,7 @@
                         </div>
 
                         <hr />
-                        @*
-                        <div class="row mb-4">
-                        <div class="col-md-4 col-6">
-                        <label class="mb-2">Size</label>
-                        <select class="form-select border border-secondary" style="height: 35px;">
-                        <option>Small</option>
-                        <option>Medium</option>
-                        <option>Large</option>
-                        </select>
-                        </div>*@
+                       
                         <!-- col.// -->
                              <form asp-action="Create">
                             <div class="col-md-4 col-6 mb-3">
@@ -173,165 +97,13 @@
                             </div>
                         </form>
                     </div>
-                    @*              <input type="submit" value="Create" class="btn btn-success" />
-                                <a type="submit" value="Create" class="btn btn-success"> Bids now </a>
-                    <a href="#" class="btn btn-primary shadow-0"> <i class="me-1 fa fa-shopping-basket"></i> Add to cart </a>
-                    <a href="#" class="btn btn-light border border-secondary py-2 icon-hover px-3"> <i class="me-1 fa fa-heart fa-lg"></i> Save </a>*@
             </div>
             </main>
         </div>
     </section>
     <!-- content -->
 
-    @*<section class="bg-light border-top py-4">
-        <div class="container">
-            <div class="row gx-4">
-                <div class="col-lg-8 mb-4">
-                    <div class="border rounded-2 px-3 py-2 bg-white">*@
-                        <!-- Pills navs -->
-                        @*<ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
-                            <li class="nav-item d-flex" role="presentation">
-                                <a class="nav-link d-flex align-items-center justify-content-center w-100 active" id="ex1-tab-1" data-mdb-toggle="pill" href="#ex1-pills-1" role="tab" aria-controls="ex1-pills-1" aria-selected="true">Specification</a>
-                            </li>
-                            <li class="nav-item d-flex" role="presentation">
-                                <a class="nav-link d-flex align-items-center justify-content-center w-100" id="ex1-tab-2" data-mdb-toggle="pill" href="#ex1-pills-2" role="tab" aria-controls="ex1-pills-2" aria-selected="false">Warranty info</a>
-                            </li>
-                            <li class="nav-item d-flex" role="presentation">
-                                <a class="nav-link d-flex align-items-center justify-content-center w-100" id="ex1-tab-3" data-mdb-toggle="pill" href="#ex1-pills-3" role="tab" aria-controls="ex1-pills-3" aria-selected="false">Shipping info</a>
-                            </li>
-                            <li class="nav-item d-flex" role="presentation">
-                                <a class="nav-link d-flex align-items-center justify-content-center w-100" id="ex1-tab-4" data-mdb-toggle="pill" href="#ex1-pills-4" role="tab" aria-controls="ex1-pills-4" aria-selected="false">Seller profile</a>
-                            </li>
-                        </ul>*@
-                        <!-- Pills navs -->
-                        <!-- Pills content -->
-                      @*  <div class="tab-content" id="ex1-content">
-                            <div class="tab-pane fade show active" id="ex1-pills-1" role="tabpanel" aria-labelledby="ex1-tab-1">
-                                <p>
-                                    With supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.
-                                </p>
-                                <div class="row mb-2">
-                                    <div class="col-12 col-md-6">
-                                        <ul class="list-unstyled mb-0">
-                                            <li><i class="fas fa-check text-success me-2"></i>Some great feature name here</li>
-                                            <li><i class="fas fa-check text-success me-2"></i>Lorem ipsum dolor sit amet, consectetur</li>
-                                            <li><i class="fas fa-check text-success me-2"></i>Duis aute irure dolor in reprehenderit</li>
-                                            <li><i class="fas fa-check text-success me-2"></i>Optical heart sensor</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-12 col-md-6 mb-0">
-                                        <ul class="list-unstyled">
-                                            <li><i class="fas fa-check text-success me-2"></i>Easy fast and ver good</li>
-                                            <li><i class="fas fa-check text-success me-2"></i>Some great feature name here</li>
-                                            <li><i class="fas fa-check text-success me-2"></i>Modern style and design</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <table class="table border mt-3 mb-2">
-                                    <tr>
-                                        <th class="py-2">Display:</th>
-                                        <td class="py-2">13.3-inch LED-backlit display with IPS</td>
-                                    </tr>
-                                    <tr>
-                                        <th class="py-2">Processor capacity:</th>
-                                        <td class="py-2">2.3GHz dual-core Intel Core i5</td>
-                                    </tr>
-                                    <tr>
-                                        <th class="py-2">Camera quality:</th>
-                                        <td class="py-2">720p FaceTime HD camera</td>
-                                    </tr>
-                                    <tr>
-                                        <th class="py-2">Memory</th>
-                                        <td class="py-2">8 GB RAM or 16 GB RAM</td>
-                                    </tr>
-                                    <tr>
-                                        <th class="py-2">Graphics</th>
-                                        <td class="py-2">Intel Iris Plus Graphics 640</td>
-                                    </tr>
-                                </table>
-                            </div>
-                            <div class="tab-pane fade mb-2" id="ex1-pills-2" role="tabpanel" aria-labelledby="ex1-tab-2">
-                                Tab content or sample information now <br />
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            </div>
-                            <div class="tab-pane fade mb-2" id="ex1-pills-3" role="tabpanel" aria-labelledby="ex1-tab-3">
-                                Another tab content or sample information now <br />
-                                Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.
-                            </div>
-                            <div class="tab-pane fade mb-2" id="ex1-pills-4" role="tabpanel" aria-labelledby="ex1-tab-4">
-                                Some other tab content or sample information now <br />
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia deserunt mollit anim id est laborum.
-                            </div>
-                        </div>
-*@                        <!-- Pills content -->
-                    </div>
-         @*       </div>
-                <div class="col-lg-4">
-                    <div class="px-0 border rounded-2 shadow-0">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Similar items</h5>
-                                <div class="d-flex mb-3">
-                                    <a href="#" class="me-3">
-                                        <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/8.webp" style="min-width: 96px; height: 96px;" class="img-md img-thumbnail" />
-                                    </a>
-                                    <div class="info">
-                                        <a href="#" class="nav-link mb-1">
-                                            Rucksack Backpack Large <br />
-                                            Line Mounts
-                                        </a>
-                                        <strong class="text-dark"> $38.90</strong>
-                                    </div>
-                                </div>
-
-                                <div class="d-flex mb-3">
-                                    <a href="#" class="me-3">
-                                        <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/9.webp" style="min-width: 96px; height: 96px;" class="img-md img-thumbnail" />
-                                    </a>
-                                    <div class="info">
-                                        <a href="#" class="nav-link mb-1">
-                                            Summer New Men's Denim <br />
-                                            Jeans Shorts
-                                        </a>
-                                        <strong class="text-dark"> $29.50</strong>
-                                    </div>
-                                </div>
-
-                                <div class="d-flex mb-3">
-                                    <a href="#" class="me-3">
-                                        <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/10.webp" style="min-width: 96px; height: 96px;" class="img-md img-thumbnail" />
-                                    </a>
-                                    <div class="info">
-                                        <a href="#" class="nav-link mb-1"> T-shirts with multiple colors, for men and lady </a>
-                                        <strong class="text-dark"> $120.00</strong>
-                                    </div>
-                                </div>
-
-                                <div class="d-flex">
-                                    <a href="#" class="me-3">
-                                        <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/11.webp" style="min-width: 96px; height: 96px;" class="img-md img-thumbnail" />
-                                    </a>
-                                    <div class="info">
-                                        <a href="#" class="nav-link mb-1"> Blazer Suit Dress Jacket for Men, Blue color </a>
-                                        <strong class="text-dark"> $339.90</strong>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>*@
+  
     <!-- Footer -->
     <footer class="text-center text-lg-start text-muted bg-primary mt-3">
         <!-- Section: Links  -->
@@ -398,10 +170,7 @@
                         <h6 class="text-uppercase text-white fw-bold mb-2">Newsletter</h6>
                         <p class="text-white">Stay in touch with latest updates about our products and offers</p>
                         <div class="input-group mb-3">
-                            @*<input type="email" class="form-control border" placeholder="Email" aria-label="Email" aria-describedby="button-addon2" />
-                            <button class="btn btn-light border shadow-0" type="button" id="button-addon2" data-mdb-ripple-color="dark">
-                                Join
-                            </button>*@
+                           
                         </div>
                     </div>
                     <!-- Grid column -->
@@ -467,6 +236,37 @@
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Custom scripts -->
     <script type="text/javascript" src="js/script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Set the target date and time for the countdown
+            var countDownDate = new Date("May 31, 2023 12:00:00").getTime();
+
+            // Update the countdown every second
+            var countdownTimer = setInterval(function () {
+                // Get the current date and time
+                var now = new Date().getTime();
+
+                // Calculate the remaining time
+                var distance = countDownDate - now;
+
+                // Check if the countdown has ended
+                if (distance <= 0) {
+                    clearInterval(countdownTimer);
+                    document.getElementById("countdown").innerHTML = "Countdown Ended";
+                    return;
+                }
+
+                // Calculate the days, hours, minutes, and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // Display the countdown in the "countdown" div
+                document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+            }, 1000);
+        });
+    </script>
 </body>
 </html>
 

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using OlineAuctionMarketing.Interface.IService;
 using OlineAuctionMarketing.Models.DTO.Users;
+using OlineAuctionMarketing.Models.Entities;
 using System.Security.Claims;
 
 namespace OlineAuctionMarketing.Controllers
@@ -50,7 +51,7 @@ namespace OlineAuctionMarketing.Controllers
             HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal, authenticationProperties);
             if (userLogin.Data.Role == Enums.UserRole.Admin)
             {
-
+                
                 return RedirectToAction("DashBoard", "Admin");
             }
             if (userLogin.Data.Role == Enums.UserRole.Auctioneer)
@@ -59,7 +60,7 @@ namespace OlineAuctionMarketing.Controllers
             }
             if (userLogin.Data.Role == Enums.UserRole.Bidder)
             {
-                return RedirectToAction("DisplayAuctions", "Auction");
+                return RedirectToAction("DashBoard", "Bidder");
 
             }
             return RedirectToAction();
@@ -86,9 +87,10 @@ namespace OlineAuctionMarketing.Controllers
 
         [HttpPost]
         public IActionResult Update(UserResponseModel userResponseModel, int id)
-        {
-            _userService.Update(userResponseModel, id);
-            return RedirectToAction("Index");
+        { 
+           var get = _userService.Update(userResponseModel, id);
+            TempData["Message"] = get.Massage;
+            return RedirectToAction("Update");
         }
     }
 }

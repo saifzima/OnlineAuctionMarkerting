@@ -36,6 +36,7 @@ namespace OlineAuctionMarketing.Inplementation.Service
             var userr = new Users
             {
                 FirstName = createBidderRequestModel.FirstName,
+                UserName = createBidderRequestModel.OtherName,
                 LastName = createBidderRequestModel.LastName,
                 Email = createBidderRequestModel.Email,
                 Password = BCrypt.Net.BCrypt.HashPassword(createBidderRequestModel.Password, BCrypt.Net.SaltRevision.Revision2Y),
@@ -117,7 +118,7 @@ namespace OlineAuctionMarketing.Inplementation.Service
 
         public BidderResponseModel GetById(int BidderId)
         {
-            var get = _bidderRepository.Get(x => x.Id == BidderId);
+            var get = _bidderRepository.Get(x => x.UsersId == BidderId);
             if (get == null)
             {
                 return new BidderResponseModel
